@@ -48,11 +48,10 @@
       items: 
         - MIDL Oral, ETH Zurich, Switzerland
         
-- title: Patents
-  type: list
-  contents:
-    - Generative Pseudo Labels (Application No. 2211487.0)
-    - An Image Segmentation Tool (Application No. 2113765.8)
+# - title: Patents
+#   type: list
+#   contents:
+#     - Generative Pseudo Labels (Application No. 2211487.0), An Image Segmentation Tool (Application No. 2113765.8)
 
 
 # - title: Experience
