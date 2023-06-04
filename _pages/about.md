@@ -9,7 +9,8 @@ profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
+  address: 
+<!--   > -->
 <!--     <p>146</p> -->
 <!--     <p>146 Chamberlayne Road</p> -->
 <!--     <p>London, NW10 3JR</p> -->
