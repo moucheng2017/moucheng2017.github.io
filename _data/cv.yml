@@ -41,21 +41,19 @@
     - Generative Pseudo Labels (Application No. 2211487.0)
     - An Image Segmentation Tool (Application No. 2113765.8)
     
-#  - title: Invited Talks
-#    type: time_table
-#    contents:
-#     - year: 2023
-#       items: 
-#         - CAI Seminar, AstraZeneca Centre for Artificial Intelligence, UK
-#     - year: 2022
-#       items: 
-#         - SIE Seminar, Kings College London, UK
-#     - year: 2022
-#       items: 
-#         - MIDL Oral, ETH Zurich, Switzerland
+ - title: Invited Talks
+   type: time_table
+   contents:
+    - year: 2023
+      items: 
+        - CAI Seminar, AstraZeneca Centre for Artificial Intelligence, UK
+    - year: 2022
+      items: 
+        - SIE Seminar, Kings College London, UK
+    - year: 2022
+      items: 
+        - MIDL Oral, ETH Zurich, Switzerland
         
-
-
 
 # - title: Experience
 #   type: time_table
