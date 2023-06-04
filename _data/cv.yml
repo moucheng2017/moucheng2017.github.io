@@ -35,14 +35,14 @@
       items: 
         - GSK PhD studentship
  
- - title: Invited Talks
-   type: time_table
-   contents:
-    - year: 2022
-      items: 
-        - CAI Seminar, AstraZeneca Centre for Artificial Intelligence, UK
-        - SIE Seminar, Kings College London, UK
-        - MIDL Oral, ETH Zurich, Switzerland
+#  - title: Invited Talks
+#    type: time_table
+#    contents:
+#     - year: 2022
+#       items: 
+#         - CAI Seminar, AstraZeneca Centre for Artificial Intelligence, UK
+#         - SIE Seminar, Kings College London, UK
+#         - MIDL Oral, ETH Zurich, Switzerland
        
 - title: Patents
   type: nested_list
