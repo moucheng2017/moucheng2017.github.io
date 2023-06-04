@@ -3,9 +3,7 @@ layout: about
 title: about
 permalink: /
 <!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
-subtitle: 
-<a href='https://satsuma.cs.ucl.ac.uk/'>Satsuma Lab</a> , 
-<a href='https://www.ucl.ac.uk/medical-image-computing/'>CMIC</a> , 90 High Holborn WC1V 6LJ
+subtitle: <a href='https://satsuma.cs.ucl.ac.uk/'>Satsuma Lab</a>, <a href='https://www.ucl.ac.uk/medical-image-computing/'>CMIC</a>, <a href='https://www.ucl.ac.uk/'>UCL</a>, 90 High Holborn WC1V 6LJ
 
 profile:
   align: right
