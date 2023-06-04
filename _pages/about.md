@@ -3,15 +3,15 @@ layout: about
 title: about
 permalink: /
 <!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
-subtitle: <a href='https://satsuma.cs.ucl.ac.uk/'>Satsuma Lab</a>, <a href='https://www.ucl.ac.uk/medical-image-computing/'>CMIC</a>, <a href='https://www.ucl.ac.uk/'>UCL</a>, 90 High Holborn WC1V 6LJ
+subtitle: PhD student, <a href='https://satsuma.cs.ucl.ac.uk/'>Satsuma Lab</a>, <a href='https://www.ucl.ac.uk/medical-image-computing/'>CMIC</a>, <a href='https://www.ucl.ac.uk/'>UCL</a>
 
 profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>146 Chamberlayne Road</p>
-    <p>London, NW10 3JR</p>
+    <p>1st floor, 90 High Holborn</p>
+    <p>WC1V 6LJ</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
