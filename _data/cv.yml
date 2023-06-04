@@ -12,23 +12,45 @@
     - title: PhD
       institution: University College London, UK
       year: 2023
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
     - title: MRes(DIC) in Medical Robotics and Image-Guided Intervention
       institution: Imperial College London, UK
       year: 2018
-#       description:
-#         - Description 1.
-#         - Description 2.
     - title: BEng(Hons) in Mechanical Engineering
       institution: Cardiff University, UK
       year: 2017
-      
+     
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items: 
+        - MICCAI Young Scientist Award (Best Paper) Finalist (top 0.8%)
+    - year: 2022
+      items: 
+        - MICCAI Student Travel Award (top 4.6%)
+    - year: 2018
+      items: 
+        - The Deans Prize. For overseas students who won a competitive scholarship to cover their stipend.
+    - year: 2018
+      items: 
+        - GSK PhD studentship
+ 
+ - title: Invited Talks
+   type: time_table
+   contents:
+    - year: 2022
+      items: 
+        - CAI Seminar, AstraZeneca Centre for Artificial Intelligence, UK
+        - SIE Seminar, Kings College London, UK
+        - MIDL Oral, ETH Zurich, Switzerland
+       
+- title: Patents
+  type: nested_list
+  contents:
+    - title: Generative Pseudo Labels (Application No. 2211487.0)
+    - title: An Image Segmentation Tool (Application No. 2113765.8)
+
+
 # - title: Experience
 #   type: time_table
 #   contents:
@@ -69,37 +91,6 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2022
-      items: 
-        - MICCAI Young Scientist Award (Best Paper) Finalist (top 0.8%)
-    - year: 2022
-      items: 
-        - MICCAI Student Travel Award (top 4.6%)
-    - year: 2018
-      items: 
-        - The Deans Prize. For overseas students who won a competitive scholarship to cover their stipend.
-    - year: 2018
-      items: 
-        - GSK PhD studentship
- 
- - title: Invited Talks
-   type: time_table
-   contents:
-    - year: 2022
-      items: 
-        - CAI Seminar, AstraZeneca Centre for Artificial Intelligence, UK
-        - SIE Seminar, Kings College London, UK
-        - MIDL Oral, ETH Zurich, Switzerland
-       
-- title: Patents
-  type: nested_list
-  contents:
-    - title: Generative Pseudo Labels (Application No. 2211487.0)
-    - title: An Image Segmentation Tool (Application No. 2113765.8)
-    
 # - title: Academic Interests
 #   type: nested_list
 #   contents:
