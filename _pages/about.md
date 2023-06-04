@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
-Moucheng is a PhD student working on AI for medical imaging at University College London. He was a finalist for the Young Scientist Award (Best Paper) at MICCAI 2022 main conference (top 0.8%, 15 / 1835 submissions). He is advised by Dr. Joseph Jacob, Prof. Daniel Alexander FREng, Dr. Neil Oxtoby from UCL, and Dr. Marius de Groot, Mr. Fred Wilson from GSK.
+Moucheng is a PhD student working on AI for medical imaging at Centre for Medical Image Computing, University College London. He was a finalist for the Young Scientist Award (Best Paper) at MICCAI 2022 main conference (top 0.8%, 15 / 1835 submissions). He is advised by Dr. Joseph Jacob, Prof. Daniel Alexander FREng, Dr. Neil Oxtoby from UCL, and Dr. Marius de Groot, Mr. Fred Wilson from GSK. Previously, he obtained his MRes degree at Hamlyn Centre for Medical Robotics, Imperial College London, and his bachelor degree in mechanical engineering at Cardiff Univesity.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
