@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-<!-- subtitle: <a href='https://satsuma.cs.ucl.ac.uk/'>Satsuma Lab, CMIC, UCL</a> 90 High Holborn WC1V 6LJ -->
+<!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
+subtitle: <a href='https://satsuma.cs.ucl.ac.uk/'>Satsuma Lab, CMIC, UCL</a> 90 High Holborn WC1V 6LJ
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: 
   >
-    <p>146</p>
+<!--     <p>146</p> -->
     <p>146 Chamberlayne Road</p>
     <p>London, NW10 3JR</p>
 
