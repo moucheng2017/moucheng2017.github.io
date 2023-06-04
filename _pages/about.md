@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 Moucheng is a PhD student at Centre for Medical Image Computing, University College London. He was a finalist for the Young Scientist Award (Best Paper) at MICCAI 2022 main conference (top 0.8%, 15 / 1835 submissions). He is advised by Dr. Joseph Jacob, Prof. Daniel Alexander FREng, Dr. Neil Oxtoby from UCL, and Dr. Marius de Groot, Mr. Fred Wilson from GSK.
 
-Previously, he obtained his MRes degree at Hamlyn Centre for Medical Robotics, Imperial College London, and his bachelor degree in mechanical engineering at Cardiff Univesity.
+<!-- Previously, he obtained his MRes degree at Hamlyn Centre for Medical Robotics, Imperial College London, and his bachelor degree in mechanical engineering at Cardiff Univesity. -->
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
