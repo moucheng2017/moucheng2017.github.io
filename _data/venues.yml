@@ -4,3 +4,18 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+  
+"TMI":
+  url: https://www.embs.org/tmi/
+  
+"BMVC":
+  url: https://britishmachinevisionassociation.github.io/bmvc
+
+"MIDL":
+  url: https://2022.midl.io/
+
+"MICCAI":
+  url: http://www.miccai.org/
+  
+"NeurIPS":
+  url: https://nips.cc/Conferences/2020
