@@ -1,84 +1,185 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@InProceedings{pmlr-v172-xu22a,
+  title = 	 {Learning Morphological Feature Perturbations for Calibrated Semi-Supervised Segmentation},
+  author =       {Xu, Mou-Cheng and Zhou, Yu-Kun and Jin, Chen and Blumberg, Stefano B. and Wilson, Frederick J. and deGroot, Marius and Alexander, Daniel C. and Oxtoby, Neil P. and Jacob, Joseph},
+  booktitle = 	 {Proceedings of The 5th International Conference on Medical Imaging with Deep Learning},
+  pages = 	 {1413--1429},
+  year = 	 {2022},
+  editor = 	 {Konukoglu, Ender and Menze, Bjoern and Venkataraman, Archana and Baumgartner, Christian and Dou, Qi and Albarqouni, Shadi},
+  volume = 	 {172},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--08 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v172/xu22a/xu22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v172/xu22a.html},
+  abstract = 	 {We propose MisMatch, a novel consistency-driven semi-supervised segmentation framework which produces predictions that are invariant to learnt feature perturbations. MisMatch consists of an encoder and a two-head decoders. One decoder learns positive attention to the foreground regions of interest (RoI) on unlabelled images thereby generating dilated features. The other decoder learns negative attention to the foreground on the same unlabelled images thereby generating eroded features. We then apply a consistency regularisation on the paired predictions. MisMatch outperforms state-of-the-art semi-supervised methods on a CT-based pulmonary vessel segmentation task and a MRI-based brain tumour segmentation task. In addition, we show that the effectiveness of MisMatch comes from better model calibration than its supervised learning counterpart.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{NEURIPS2020_b5d17ed2,
+ author = {Zhang, Le and Tanno, Ryutaro and Xu, Mou-Cheng and Jin, Chen and Jacob, Joseph and Cicarrelli, Olga and Barkhof, Frederik and Alexander, Daniel},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+ pages = {15750--15762},
+ publisher = {Curran Associates, Inc.},
+ title = {Disentangling Human Error from Ground Truth in Segmentation of Medical Images},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/b5d17ed2b502da15aa727af0d51508d6-Paper.pdf},
+ volume = {33},
+ year = {2020}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@InProceedings{10.1007/978-3-030-59722-1_54,
+author="Jin, Chen
+and Tanno, Ryutaro
+and Xu, Moucheng
+and Mertzanidou, Thomy
+and Alexander, Daniel C.",
+editor="Martel, Anne L.
+and Abolmaesumi, Purang
+and Stoyanov, Danail
+and Mateus, Diana
+and Zuluaga, Maria A.
+and Zhou, S. Kevin
+and Racoceanu, Daniel
+and Joskowicz, Leo",
+title="Foveation for Segmentation of Mega-Pixel Histology Images",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2020",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="561--571",
+abstract="Segmenting histology images is challenging because of the sheer size of the images with millions or even billions of pixels. Typical solutions pre-process each histology image by dividing it into patches of fixed size and/or down-sampling to meet memory constraints. Such operations incur information loss in the field-of-view (FoV) (i.e., spatial coverage) and the image resolution. The impact on segmentation performance is, however, as yet understudied. In this work, we first show under typical memory constraints (e.g., 10G GPU memory) that the trade-off between FoV and resolution considerably affects segmentation performance on histology images, and its influence also varies spatially according to local patterns in different areas (see Fig. 1). Based on this insight, we then introduce foveation module, a learnable ``dataloader'' which, for a given histology image, adaptively chooses the appropriate configuration (FoV/resolution trade-off) of the input patch to feed to the downstream segmentation model at each spatial location (Fig. 1). The foveation module is jointly trained with the segmentation network to maximise the task performance. We demonstrate, on the Gleason2019 challenge dataset for histopathology segmentation, that the foveation module improves segmentation performance over the cases trained with patches of fixed FoV/resolution trade-off. Moreover, our model achieves better segmentation accuracy for the two most clinically important and ambiguous classes (Gleason Grade 3 and 4) than the top performers in the challenge by 13.1{\%} and 7.5{\%}, and improves on the average performance of 6 human experts by 6.5{\%} and 7.5{\%}.",
+isbn="978-3-030-59722-1"
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{DBLP:journals/corr/abs-2007-15131,
+  author       = {Mou-Cheng Xu and
+                  Neil Oxtoby and
+                  Daniel C. Alexander and
+                  Joseph Jacob},
+  title        = {Learning To Pay Attention To Mistakes},
+  journal      = {British Machine Vision Conference},
+  year         = {2020},
+  url          = {https://www.bmvc2020-conference.com/assets/papers/0335.pdf},
+  timestamp    = {Mon, 03 Aug 2020 14:32:13 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2007-15131.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@InProceedings{10.1007/978-3-030-87193-2_46,
+author="Zhou, Yukun
+and Xu, Moucheng
+and Hu, Yipeng
+and Lin, Hongxiang
+and Jacob, Joseph
+and Keane, Pearse A.
+and Alexander, Daniel C.",
+editor="de Bruijne, Marleen
+and Cattin, Philippe C.
+and Cotin, St{\'e}phane
+and Padoy, Nicolas
+and Speidel, Stefanie
+and Zheng, Yefeng
+and Essert, Caroline",
+title="Learning to Address Intra-segment Misclassification in Retinal Imaging",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2021",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="482--492",
+abstract="Accurate multi-class segmentation is a long-standing challenge in medical imaging, especially in scenarios where classes share strong similarity. Segmenting retinal blood vessels in retinal photographs is one such scenario, in which arteries and veins need to be identified and differentiated from each other and from the background. Intra-segment misclassification, i.e. veins classified as arteries or vice versa, frequently occurs when arteries and veins intersect, whereas in binary retinal vessel segmentation, error rates are much lower. We thus propose a new approach that decomposes multi-class segmentation into multiple binary, followed by a binary-to-multi-class fusion network. The network merges representations of artery, vein, and multi-class feature maps, each of which are supervised by expert vessel annotation in adversarial training. A skip-connection based merging process explicitly maintains class-specific gradients to avoid gradient vanishing in deep layers, to favor the discriminative features. The results show that, our model respectively improves F1-score by 4.4{\%}, 5.1{\%}, and 4.2{\%} compared with three state-of-the-art deep learning based methods on DRIVE-AV, LES-AV, and HRF-AV data sets. Code: https://github.com/rmaphoh/Learning-AVSegmentation",
+isbn="978-3-030-87193-2"
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@InProceedings{10.1007/978-3-031-16443-9_56,
+author="Xu, Mou-Cheng
+and Zhou, Yukun
+and Jin, Chen
+and de Groot, Marius
+and Alexander, Daniel C.
+and Oxtoby, Neil P.
+and Hu, Yipeng
+and Jacob, Joseph",
+editor="Wang, Linwei
+and Dou, Qi
+and Fletcher, P. Thomas
+and Speidel, Stefanie
+and Li, Shuo",
+title="Bayesian Pseudo Labels: Expectation Maximization for Robust and Efficient Semi-supervised Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="580--590",
+abstract="This paper concerns pseudo labelling in segmentation. Our contribution is fourfold. Firstly, we present a new formulation of pseudo-labelling as an Expectation-Maximization (EM) algorithm for clear statistical interpretation. Secondly, we propose a semi-supervised medical image segmentation method purely based on the original pseudo labelling, namely SegPL. We demonstrate SegPL is a competitive approach against state-of-the-art consistency regularisation based methods on semi-supervised segmentation on a 2D multi-class MRI brain tumour segmentation task and a 3D binary CT lung vessel segmentation task. The simplicity of SegPL allows less computational cost comparing to prior methods. Thirdly, we demonstrate that the effectiveness of SegPL may originate from its robustness against out-of-distribution noises and adversarial attacks. Lastly, under the EM framework, we introduce a probabilistic generalisation of SegPL via variational inference, which learns a dynamic threshold for pseudo labelling during the training. We show that SegPL with variational inference can perform uncertainty estimation on par with the gold-standard method Deep Ensemble.",
+isbn="978-3-031-16443-9"
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@ARTICLE{10121397,
+  author={Xu, Mou-Cheng and Zhou, Yukun and Jin, Chen and De Groot, Marius and Alexander, Daniel C. and Oxtoby, Neil P. and Jacob, Joseph},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={MisMatch: Calibrated Segmentation via Consistency on Differential Morphological Feature Perturbations with Limited Labels}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2023.3273158}}
+
+@article{ZHANG2023109400,
+title = {Learning from multiple annotators for medical image segmentation},
+journal = {Pattern Recognition},
+volume = {138},
+pages = {109400},
+year = {2023},
+issn = {0031-3203},
+doi = {https://doi.org/10.1016/j.patcog.2023.109400},
+url = {https://www.sciencedirect.com/science/article/pii/S0031320323001012},
+author = {Le Zhang and Ryutaro Tanno and Moucheng Xu and Yawen Huang and Kevin Bronik and Chen Jin and Joseph Jacob and Yefeng Zheng and Ling Shao and Olga Ciccarelli and Frederik Barkhof and Daniel C. Alexander},
+keywords = {Multi-Annotator, Label fusion, Segmentation},
+abstract = {Supervised machine learning methods have been widely developed for segmentation tasks in recent years. However, the quality of labels has high impact on the predictive performance of these algorithms. This issue is particularly acute in the medical image domain, where both the cost of annotation and the inter-observer variability are high. Different human experts contribute estimates of the ”actual” segmentation labels in a typical label acquisition process, influenced by their personal biases and competency levels. The performance of automatic segmentation algorithms is limited when these noisy labels are used as the expert consensus label. In this work, we use two coupled CNNs to jointly learn, from purely noisy observations alone, the reliability of individual annotators and the expert consensus label distributions. The separation of the two is achieved by maximally describing the annotator’s “unreliable behavior” (we call it “maximally unreliable”) while achieving high fidelity with the noisy training data. We first create a toy segmentation dataset using MNIST and investigate the properties of the proposed algorithm. We then use three public medical imaging segmentation datasets to demonstrate our method’s efficacy, including both simulated (where necessary) and real-world annotations: 1) ISBI2015 (multiple-sclerosis lesions); 2) BraTS (brain tumors); 3) LIDC-IDRI (lung abnormalities). Finally, we create a real-world multiple sclerosis lesion dataset (QSMSC at UCL: Queen Square Multiple Sclerosis Center at UCL, UK) with manual segmentations from 4 different annotators (3 radiologists with different level skills and 1 expert to generate the expert consensus label). In all datasets, our method consistently outperforms competing methods and relevant baselines, especially when the number of annotations is small and the amount of disagreement is large. The studies also reveal that the system is capable of capturing the complicated spatial characteristics of annotators’ mistakes.}
 }
+
+@InProceedings{10.1007/978-3-031-18576-2_11,
+author="Pakzad, Ashkan
+and Xu, Mou-Cheng
+and Cheung, Wing Keung
+and Vermant, Marie
+and Goos, Tinne
+and De Sadeleer, Laurens J.
+and Verleden, Stijn E.
+and Wuyts, Wim A.
+and Hurst, John R.
+and Jacob, Joseph",
+editor="Mukhopadhyay, Anirban
+and Oksuz, Ilkay
+and Engelhardt, Sandy
+and Zhu, Dajiang
+and Yuan, Yixuan",
+title="Airway Measurement by Refinement of Synthetic Images Improves Mortality Prediction in Idiopathic Pulmonary Fibrosis",
+booktitle="Deep Generative Models",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="106--116",
+abstract="Several chronic lung diseases, like idiopathic pulmonary fibrosis (IPF) are characterised by abnormal dilatation of the airways. Quantification of airway features on computed tomography (CT) can help characterise disease severity and progression. Physics based airway measurement algorithms that have been developed have met with limited success, in part due to the sheer diversity of airway morphology seen in clinical practice. Supervised learning methods are not feasible due to the high cost of obtaining precise airway annotations. We propose synthesising airways by style transfer using perceptual losses to train our model: Airway Transfer Network (ATN). We compare our ATN model with a state-of-the-art GAN-based network (simGAN) using a) qualitative assessment; b) assessment of the ability of ATN and simGAN based CT airway metrics to predict mortality in a population of 113 patients with IPF. ATN was shown to be quicker and easier to train than simGAN. ATN-based airway measurements showed consistently stronger associations with mortality than simGAN-derived airway metrics on IPF CTs. Airway synthesis by a transformation network that refines synthetic data using perceptual losses is a realistic alternative to GAN-based methods for clinical CT analyses of idiopathic pulmonary fibrosis. Our source code can be found at https://github.com/ashkanpakzad/ATNthat is compatible with the existing open-source airway analysis framework, AirQuant.",
+isbn="978-3-031-18576-2"
+}
+
+@article{10.1167/tvst.11.7.12,
+    author = {Zhou, Yukun and Wagner, Siegfried K. and Chia, Mark A. and Zhao, An and Woodward-Court, Peter and Xu, Moucheng and Struyven, Robbert and Alexander, Daniel C. and Keane, Pearse A.},
+    title = "{AutoMorph: Automated Retinal Vascular Morphology Quantification Via a Deep Learning Pipeline}",
+    journal = {Translational Vision Science & Technology},
+    volume = {11},
+    number = {7},
+    pages = {12-12},
+    year = {2022},
+    month = {07},
+    abstract = "{   To externally validate a deep learning pipeline (AutoMorph) for automated analysis of retinal vascular morphology on fundus photographs. AutoMorph has been made publicly available, facilitating widespread research in ophthalmic and systemic diseases.    AutoMorph consists of four functional modules: image preprocessing, image quality grading, anatomical segmentation (including binary vessel, artery/vein, and optic disc/cup segmentation), and vascular morphology feature measurement. Image quality grading and anatomical segmentation use the most recent deep learning techniques. We employ a model ensemble strategy to achieve robust results and analyze the prediction confidence to rectify false gradable cases in image quality grading. We externally validate the performance of each module on several independent publicly available datasets.    The EfficientNet-b4 architecture used in the image grading module achieves performance comparable to that of the state of the art for EyePACS-Q, with an F1-score of 0.86. The confidence analysis reduces the number of images incorrectly assessed as gradable by 76\\%. Binary vessel segmentation achieves an F1-score of 0.73 on AV-WIDE and 0.78 on DR HAGIS. Artery/vein scores are 0.66 on IOSTAR-AV, and disc segmentation achieves 0.94 in IDRID. Vascular morphology features measured from the AutoMorph segmentation map and expert annotation show good to excellent agreement.    AutoMorph modules perform well even when external validation data show domain differences from training data (e.g., with different imaging devices). This fully automated pipeline can thus allow detailed, efficient, and comprehensive analysis of retinal vascular morphology on color fundus photographs.    By making AutoMorph publicly available and open source, we hope to facilitate ophthalmic and systemic disease research, particularly in the emerging field of oculomics.  }",
+    issn = {2164-2591},
+    doi = {10.1167/tvst.11.7.12},
+    url = {https://doi.org/10.1167/tvst.11.7.12},
+    eprint = {https://arvojournals.org/arvo/content\_public/journal/tvst/938598/i2164-2591-11-7-12\_1657702188.55649.pdf},
+}
+
+
