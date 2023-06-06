@@ -12,14 +12,14 @@
     - title: PhD in AI for Medical Imaging
       institution: University College London, UK
       year: 2023
-      description:
+      contents:
         - Thesis: Deep Learning with Limited Labels for Medical Imaging 
         - Supervisors: Dr. Josph Jacob, Prof. Daniel Alexander FREng, Dr. Neil Oxtoby, Dr. Marius de Groot, Mr. Fred Wilson 
       
     - title: MRes(DIC) in Medical Robotics and Image-Guided Intervention
       institution: Imperial College London, UK
       year: 2018
-      description:
+      contents:
         - Thesis: Tissue Characterization Based on The Analysis on i3DUS Data for Diagnosis Support in Neurosurgery 
         - Supervisors: Dr. Stamatia Giannarou, Prof. Guang-Zhong Yang FREng
 
