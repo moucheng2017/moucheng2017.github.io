@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bayesian Pseudo Labels selected as a finalist for the Young Scientist Award (Best Paper at MICCAI main conference 2022) emoji! :sparkles:
+title: Bayesian Pseudo Labels selected as a finalist for the Young Scientist Award (Best Paper at MICCAI main conference 2022)!
 date: 2022-09-20 16:11:00-0400
 inline: false
 related_posts: false
