@@ -8,7 +8,7 @@ related_posts: false
 
 Our <a href="https://conferences.miccai.org/2022/papers/066-Paper2505.html">Bayesian Pseudo Labels: Expectation Maximization for Robust and Efficient Semi-Supervised Segmentation</a> has been nominated and shortlisted for the MICCAI Young Scientist Award 2022 :star2: Massive thanks to my co-authors: Yukun Zhou, Jin Chen, Marius De Groot, Daniel Alexander, Neil Oxtoby, Yipeng Hu, Joseph Jacob.
 
-MICCAI Young Scientist Awards recognise the best papers at the MICCAI main conference, the premier conference in medical image computing, therefore, the Young Scientist Award is regarded as one of the most prestigious and competitive awards in our field. In 2022, only 15 out of 1825 submissions were shortlisted, making our paper a top 0.8% submission.
+MICCAI Young Scientist Awards recognise the best papers at the MICCAI main conference, the premier conference in medical image computing, the Young Scientist Award is regarded as one of the most prestigious and competitive awards in our field. In 2022, only 15 out of 1825 submissions were shortlisted, making our paper a top 0.8% submission.
 
 ***
 
