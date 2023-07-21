@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 <!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
-subtitle: Research Scientist, Odin Vision (An Olympus company).
+subtitle: Research Scientist, Odin Vision (an Olympus company).
 
 profile:
   align: right
