@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 Moucheng is a London-based AI researcher and engineer. He was a finalist for the Young Scientist Award (Best Paper) at MICCAI 2022 main conference (top 0.8%, 15 / 1835 submissions). He is particually interested in the application of AI in healthcare.
 
-Previously, he obtained his PhD from University College London (UCL), under the supervisions of <a href='https://scholar.google.com/citations?user=XCcV5ocAAAAJ&hl=en'>Dr. Joseph Jacob</a>, <a href='https://scholar.google.com/citations?user=mH-ZOQEAAAAJ&hl=en'>Prof. Daniel Alexander FREng</a>, <a href='https://scholar.google.com/citations?user=uWfRPHEAAAAJ&hl=en'>Dr. Neil Oxtoby</a>, and <a href='https://scholar.google.com/citations?user=sZ4UbusAAAAJ&hl=en'>Dr. Marius de Groot</a>, Mr. Fred Wilson from GSK.
+Previously, he obtained his PhD from University College London, under the supervisions of <a href='https://scholar.google.com/citations?user=XCcV5ocAAAAJ&hl=en'>Dr. Joseph Jacob</a>, <a href='https://scholar.google.com/citations?user=mH-ZOQEAAAAJ&hl=en'>Prof. Daniel Alexander FREng</a>, <a href='https://scholar.google.com/citations?user=uWfRPHEAAAAJ&hl=en'>Dr. Neil Oxtoby</a>, and <a href='https://scholar.google.com/citations?user=sZ4UbusAAAAJ&hl=en'>Dr. Marius de Groot</a>, Mr. Fred Wilson from GSK.
 
 <!-- Previously, he obtained his MRes degree at Hamlyn Centre for Medical Robotics, Imperial College London, and his bachelor degree in mechanical engineering at Cardiff Univesity. -->
 
