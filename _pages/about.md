@@ -10,8 +10,8 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>1st floor, 90 High Holborn</p>
-    <p>WC1V 6LJ</p>
+    <p>4th floor. The Black & White Building. </p>
+    <p>74 Rivington St. EC2A 3AY</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
