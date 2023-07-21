@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 <!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
-subtitle: PhD student, <a href='https://satsuma.cs.ucl.ac.uk/'>Satsuma Lab</a>, <a href='https://www.ucl.ac.uk/medical-image-computing/'>CMIC</a>, <a href='https://www.ucl.ac.uk/'>UCL</a>
+subtitle: Research Scientist, Odin Vision (An Olympus company).
 
 profile:
   align: right
@@ -21,7 +21,9 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
-Moucheng is a PhD student at UCL, UK. He was a finalist for the Young Scientist Award (Best Paper) at MICCAI 2022 main conference (top 0.8%, 15 / 1835 submissions). He is advised by <a href='https://scholar.google.com/citations?user=XCcV5ocAAAAJ&hl=en'>Dr. Joseph Jacob</a>, <a href='https://scholar.google.com/citations?user=mH-ZOQEAAAAJ&hl=en'>Prof. Daniel Alexander FREng</a>, <a href='https://scholar.google.com/citations?user=uWfRPHEAAAAJ&hl=en'>Dr. Neil Oxtoby</a> from UCL, and <a href='https://scholar.google.com/citations?user=sZ4UbusAAAAJ&hl=en'>Dr. Marius de Groot</a>, Mr. Fred Wilson from GSK.
+Moucheng is a London-based AI researcher and engineer. He was a finalist for the Young Scientist Award (Best Paper) at MICCAI 2022 main conference (top 0.8%, 15 / 1835 submissions). He is particually interested in the application of AI in healthcare.
+
+Previously, he obtained his PhD from University College London (UCL), under the supervisions of <a href='https://scholar.google.com/citations?user=XCcV5ocAAAAJ&hl=en'>Dr. Joseph Jacob</a>, <a href='https://scholar.google.com/citations?user=mH-ZOQEAAAAJ&hl=en'>Prof. Daniel Alexander FREng</a>, <a href='https://scholar.google.com/citations?user=uWfRPHEAAAAJ&hl=en'>Dr. Neil Oxtoby</a>, and <a href='https://scholar.google.com/citations?user=sZ4UbusAAAAJ&hl=en'>Dr. Marius de Groot</a>, Mr. Fred Wilson from GSK.
 
 <!-- Previously, he obtained his MRes degree at Hamlyn Centre for Medical Robotics, Imperial College London, and his bachelor degree in mechanical engineering at Cardiff Univesity. -->
 
