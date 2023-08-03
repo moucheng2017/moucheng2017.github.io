@@ -11,10 +11,13 @@
   contents:
     - title: PhD in AI for Medical Imaging
       institution: University College London, UK
-      items: 
-        - "Thesis": "Deep Learning with Limited Labels for Medical Imaging"
-        - "Supervisors": Joseph Jacob, Daniel Alexander, Neil Oxtoby, Marius de Groot, Fred Wilson 
-        - "Examiners": Julia Schnabel, Matthew Clarkson
+      contents:
+        - name: Thesis
+          value: Deep Learning with Limited Labels for Medical Imaging
+        - name: Supervisors
+          value: Joseph Jacob, Daniel Alexander, Neil Oxtoby, Marius de Groot, Fred Wilson 
+        - name: Examiners
+          value: Julia Schnabel, Matthew Clarkson
       year: 2023
 
     - title: MRes(DIC) in Medical Robotics and Image-Guided Intervention
