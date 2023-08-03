@@ -11,7 +11,9 @@
   contents:
     - title: PhD in AI for Medical Imaging
       institution: University College London, UK
-      supervisors: Joseph Jacob, Daniel Alexander, Neil Oxtoby, Marius de Groot, Fred Wilson 
+      items: 
+        - Deep Learning with Limited Labels for Medical Imaging
+        - Joseph Jacob, Daniel Alexander, Neil Oxtoby, Marius de Groot, Fred Wilson 
       year: 2023
 
     - title: MRes(DIC) in Medical Robotics and Image-Guided Intervention
