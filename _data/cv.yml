@@ -11,22 +11,22 @@
   contents:
     - title: Research Scientist
       institution: Odin Vision
-      year: 2023 08
+      year: 2023 March
 
 - title: Education
   type: time_table
   contents:
     - title: PhD in AI for Medical Imaging
       institution: University College London, UK (Centre for Medical Image Computing)
-      year: 2023 
+      year: 2023 May
 
     - title: MRes(DIC) in Medical Robotics and Image-Guided Intervention
       institution: Imperial College London, UK (The Hamlyn Centre for Robotic Surgery)
-      year: 2018
+      year: 2018 October
 
     - title: BEng(Hons) in Mechanical Engineering
       institution: Cardiff University, UK
-      year: 2017
+      year: 2017 June
      
 - title: Awards
   type: time_table
@@ -53,16 +53,16 @@
 - title: Invited Talks
   type: time_table
   contents:
-    - year: 2023
+    - year: 2023 July
       items: 
         - GSK Clinical Imaging Group, UK
-    - year: 2023
+    - year: 2023 May
       items: 
         - AstraZeneca Centre for Artificial Intelligence, UK
-    - year: 2022
+    - year: 2022 Mar
       items: 
         - SIE Seminar, Kings College London, UK
-    - year: 2022
+    - year: 2022 July
       items: 
         - MIDL Oral, ETH Zurich, Switzerland
         
