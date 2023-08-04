@@ -6,12 +6,19 @@
     - name: Languages
       value: English, Chinese
 
+- title: Industry Experience
+  type: time_table
+  contents:
+    - title: Research Scientist
+      institution: Odin Vision
+      year: 2023 
+
 - title: Education
   type: time_table
   contents:
     - title: PhD in AI for Medical Imaging
       institution: University College London, UK (Centre for Medical Image Computing)
-      year: 2023
+      year: 2023 
 
     - title: MRes(DIC) in Medical Robotics and Image-Guided Intervention
       institution: Imperial College London, UK (The Hamlyn Centre for Robotic Surgery)
@@ -21,7 +28,7 @@
       institution: Cardiff University, UK
       year: 2017
      
-- title: Honors and Awards
+- title: Awards
   type: time_table
   contents:
     - year: 2022
@@ -58,6 +65,7 @@
     - year: 2022
       items: 
         - MIDL Oral, ETH Zurich, Switzerland
+        
 # - title: Experience
 #   type: time_table
 #   contents:
