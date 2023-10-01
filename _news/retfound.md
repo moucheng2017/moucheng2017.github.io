@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-Our <a href="[https://conferences.miccai.org/2022/papers/066-Paper2505.html](https://www.nature.com/articles/s41586-023-06555-x)">A foundation model for generalizable disease detection from retinal images</a> has been accepted and published at Nature (Impact factor: 64) :star2: Special congrats to the first-author Yukun Zhou who did a truly amazing job!
+Our <a href="[https://conferences.miccai.org/2022/papers/066-Paper2505.html](https://www.nature.com/articles/s41586-023-06555-x)">"A foundation model for generalizable disease detection from retinal images"</a> has been accepted and published at Nature (Impact factor: 64) :star2: Special congrats to the first-author Yukun Zhou who did a truly amazing job!
 
 In the paper, we present the first generative modelling based foundational model in medicine. The proposed RETFound is based on masked auto-encoder, which was pretrained on natural images first, followed by further pre-training on 1.6 milliion retinal images. RETFound shows great generaisation on more than 10 down stream tasks after fine tuning on very limited amount of task specific data. 
 ***
