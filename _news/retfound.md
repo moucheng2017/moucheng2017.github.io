@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RETFound is published by Nature! Congrats to the leader author Yukun and Pearse!
+title: RETFound is published by Nature! Congrats to the leader authors Yukun and Pearse!
 date: 2023-09-13 16:11:00-0400
 inline: false
 related_posts: false
