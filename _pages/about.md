@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 <!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
-subtitle: Research Scientist at <a href='https://odin-vision.com/'>Odin Vision</a> (<a href='https://www.olympus-global.com/news/2023/nr02518.html'>Olympus</a>, Digital Unit)
+subtitle: Research Scientist at <a href='https://odin-vision.com/'>Odin Vision</a> (<a href='https://www.olympus-global.com/'>Olympus</a>, Digital Unit)
 
 profile:
   align: right
