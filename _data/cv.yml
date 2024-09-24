@@ -10,8 +10,11 @@
   type: time_table
   contents:
     - title: Research Scientist
+      institution: Agile Loop
+      year: 2024 May - 
+    - title: Research Scientist
       institution: Odin Vision
-      year: 2023 Mar
+      year: 2023 Mar - 2024 May
 
 - title: Education
   type: time_table
