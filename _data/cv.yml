@@ -13,7 +13,7 @@
       institution: Agile Loop
       year: 2024 May - 
     - title: Research Scientist
-      institution: Odin Vision
+      institution: Odin Vision (now Olympus Corporation)
       year: 2023 Mar - 2024 May
 
 - title: Education
@@ -30,7 +30,7 @@
 
     - title: BEng(Hons) in Mechanical Engineering
       institution: Cardiff University, UK
-      year: 2014 Jun - 2017 Jun
+      year: 2014 Sep - 2017 Jun
      
 - title: Awards
   type: time_table
@@ -48,11 +48,11 @@
       items: 
         - GSK PhD studentship
 
-- title: Patents
-  type: list
-  contents:
-    - Generative Pseudo Labels (Application No. 2211487.0)
-    - An Image Segmentation Tool (Application No. 2113765.8)
+# - title: Patents
+#   type: list
+#   contents:
+#     - Generative Pseudo Labels (Application No. 2211487.0)
+#     - An Image Segmentation Tool (Application No. 2113765.8)
 
 - title: Invited Talks
   type: time_table
