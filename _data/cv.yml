@@ -9,9 +9,9 @@
 - title: Industry Experience
   type: time_table
   contents:
-    - title: Research Scientist
-      institution: Agile Loop, London, UK
-      year: 2024 May - 
+    # - title: Research Scientist
+    #   institution: Agile Loop, London, UK
+    #   year: 2024 May - 
     - title: Research Scientist
       institution: Odin Vision (now Olympus Corporation), London, UK
       year: 2023 Mar - 2024 May
