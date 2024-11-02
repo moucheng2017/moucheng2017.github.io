@@ -11,7 +11,7 @@
   contents:
     - title: Senior AI Engineer
       institution: Medtronic, London, UK
-      year: 2024 Oct -  
+      year: 2024 Oct --  
     - title: AI Engineer
       institution: Agile Loop, London, UK
       year: 2024 May - 2024 Oct
@@ -60,10 +60,10 @@
 - title: Invited Talks
   type: time_table
   contents:
-    - year: 2024 June
+    - year: 2024 Jun
       items: 
         - Hammer and Nail in AI Seminar, University of Catania
-    - year: 2024 April
+    - year: 2024 Apr
       items: 
         - Panel Discussion, MSB Webniar on MICCAI Review, Rebuttal, Challenge and Workshop
     - year: 2023 Jul
