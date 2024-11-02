@@ -6,7 +6,7 @@
   booktitle={NeurIPS Workshop on Machine Learning and the Physical Sciences}, 
   title={MRI Parameter Mapping without Independent Voxel Assumption via Gaussian Mixture Variational Autoencoder}, 
   year={2024},
-  month={10},
+  month={12},
   selected={false},
   code={https://github.com/moucheng2017/MRI-GMM-VAE},
   abstract={We introduce and demonstrate a new paradigm for quantitative parameter mapping in MRI.
@@ -22,24 +22,27 @@ Our approach enables improved quantitative maps and/or reduced acquisition times
   booktitle={NeurIPS Workshop on Video-Language Models}, 
   title={In-Context Ensemble Learning from Pseudo Labels Improves Video-Language Models for Low-Level Workflow Understanding}, 
   year={2024},
-  month={10},
+  month={12},
   selected={true},
   pdf={https://arxiv.org/abs/2409.15867},
   code={https://github.com/moucheng2017/SOP-LVM-ICL-Ensemble},
   abstract={A Standard Operating Procedure (SOP) defines a step-by-step written guide for a business software workflow. SOP generation is a crucial step towards automating end-to-end software workflows. Manually creating SOPs can be time-consuming. Recent advancements in large video-language models offer the potential for automating SOP generation by analyzing recordings of human demonstrations. However, current large video-language models face challenges with zero-shot SOP generation. In this work, we first explore in-context learning with video-language models for SOP generation. We then propose In-Context Ensemble Learning, to aggregate pseudo labels of SOPs. The proposed in-context ensemble learning increases test-time compute and enables the models to learn beyond its context window limit with an implicit consistency regularisation. We report that in-context learning helps video-language models to generate more temporally accurate SOPs, and the proposed in-context ensemble learning can consistently enhance the capabilities of the video-language models in SOP generation.}
 }
 
-@artical{EMPL,
-  title = 	 {Expectation maximization pseudo labels},
-  author =       {Xu, Moucheng Xu and Zhou, Yukun and Jin, Chen and de Groot, Marius and Alexander, Daniel C. and Oxtoby, Neil P. and Hu, Yipeng and Jacob, Joseph},
-  journal = 	 {Medical Image Analysis -- Impact Factor: 10.7},
-  year = 	 {2024},
-  month = 	 {02},
-  publisher =  {Elsevier},
-  selected={false},
-  pdf = 	{https://www.sciencedirect.com/science/article/pii/S1361841524000501},
-  code = {https://github.com/moucheng2017/EM-BPL-Semi-Seg},
-  abstract={In this paper, we study pseudo-labelling. Pseudo-labelling employs raw inferences on unlabelled data as pseudo-labels for self-training. We elucidate the empirical successes of pseudo-labelling by establishing a link between this technique and the Expectation Maximisation algorithm. Through this, we realise that the original pseudo-labelling serves as an empirical estimation of its more comprehensive underlying formulation. Following this insight, we present a full generalisation of pseudo-labels under Bayes’ theorem, termed Bayesian Pseudo Labels. Subsequently, we introduce a variational approach to generate these Bayesian Pseudo Labels, involving the learning of a threshold to automatically select high-quality pseudo labels. In the remainder of the paper, we showcase the applications of pseudo-labelling and its generalised form, Bayesian Pseudo-Labelling, in the semi-supervised segmentation of medical images. Specifically, we focus on: (1) 3D binary segmentation of lung vessels from CT volumes; (2) 2D multi-class segmentation of brain tumours from MRI volumes; (3) 3D binary segmentation of whole brain tumours from MRI volumes; and (4) 3D binary segmentation of prostate from MRI volumes. We further demonstrate that pseudo-labels can enhance the robustness of the learned representations.}
+@article{XU2024103125,
+title = {Expectation maximisation pseudo labels},
+journal = {Medical Image Analysis},
+volume = {94},
+pages = {103125},
+year = {2024},
+month = {02},
+issn = {1361-8415},
+selected = {false},
+doi = {https://doi.org/10.1016/j.media.2024.103125},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841524000501},
+author = {Moucheng Xu and Yukun Zhou and Chen Jin and Marius {de Groot} and Daniel C. Alexander and Neil P. Oxtoby and Yipeng Hu and Joseph Jacob},
+keywords = {Pseudo labels, Bayesian deep learning, Expectation–maximisation, Semi-supervised learning, Segmentation, Generative models, Robustness},
+abstract = {In this paper, we study pseudo-labelling. Pseudo-labelling employs raw inferences on unlabelled data as pseudo-labels for self-training. We elucidate the empirical successes of pseudo-labelling by establishing a link between this technique and the Expectation Maximisation algorithm. Through this, we realise that the original pseudo-labelling serves as an empirical estimation of its more comprehensive underlying formulation. Following this insight, we present a full generalisation of pseudo-labels under Bayes’ theorem, termed Bayesian Pseudo Labels. Subsequently, we introduce a variational approach to generate these Bayesian Pseudo Labels, involving the learning of a threshold to automatically select high-quality pseudo labels. In the remainder of the paper, we showcase the applications of pseudo-labelling and its generalised form, Bayesian Pseudo-Labelling, in the semi-supervised segmentation of medical images. Specifically, we focus on: (1) 3D binary segmentation of lung vessels from CT volumes; (2) 2D multi-class segmentation of brain tumours from MRI volumes; (3) 3D binary segmentation of whole brain tumours from MRI volumes; and (4) 3D binary segmentation of prostate from MRI volumes. We further demonstrate that pseudo-labels can enhance the robustness of the learned representations. The code is released in the following GitHub repository: https://github.com/moucheng2017/EMSSL.}
 }
 
 @article{ZHOU2024103098,
@@ -49,6 +52,7 @@ volume = {93},
 pages = {103098},
 year = {2024},
 month={03},
+selected={false},
 issn = {1361-8415},
 doi = {https://doi.org/10.1016/j.media.2024.103098},
 url = {https://www.sciencedirect.com/science/article/pii/S1361841524000239},
@@ -58,18 +62,18 @@ abstract = {Characterising clinically-relevant vascular features, such as vessel
 }
 
 @artical{RETFound,
-  title = 	 {A Foundation Model for Generalizable Disease Detection from Retinal Images},
-  author =       {Zhou, Yukun and Chia Mark A. and Wagner, Siegfried K. and Ayhan Mura S. and Williamson, Dominic J. and Struyven, Robbert R. and Liu, Timing and Xu, Moucheng and Lozano, Mateo G
+  title={A Foundation Model for Generalizable Disease Detection from Retinal Images},
+  author={Zhou, Yukun and Chia Mark A. and Wagner, Siegfried K. and Ayhan Mura S. and Williamson, Dominic J. and Struyven, Robbert R. and Liu, Timing and Xu, Moucheng and Lozano, Mateo G
 and Woodward-Court, Peter and Kihara, Yuka and Altmann, Andre and Lee, Aaron Y. and Topol, Eric J. and Denniston, Alastair K. and Alexander, Daniel C. and Keane, Pearse A.},
-  journal = 	 {Nature -- Impact Factor: 64.8},
-  year = 	 {2023},
-  month = 	 {09},
-  publisher =  {nature},
+  journal ={Nature -- Impact Factor: 64.8},
+  year={2023},
+  month={09},
+  publisher={nature},
   selected={true},
   preview={nature.png},
-  pdf = 	{https://www.nature.com/articles/s41586-023-06555-x},
-  code = {https://github.com/rmaphoh/RETFound_MAE},
-  abstract = 	{Medical artificial intelligence (AI) offers great potential for recognizing signs of health conditions in retinal images and expediting the diagnosis of eye diseases and systemic disorders1. However, the development of AI models requires substantial annotation and models are usually task-specific with limited generalizability to different clinical applications2. Here, we present RETFound, a foundation model for retinal images that learns generalizable representations from unlabelled retinal images and provides a basis for label-efficient model adaptation in several applications. Specifically, RETFound is trained on 1.6 million unlabelled retinal images by means of self-supervised learning and then adapted to disease detection tasks with explicit labels. We show that adapted RETFound consistently outperforms several comparison models in the diagnosis and prognosis of sight-threatening eye diseases, as well as incident prediction of complex systemic disorders such as heart failure and myocardial infarction with fewer labelled data. RETFound provides a generalizable solution to improve model performance and alleviate the annotation workload of experts to enable broad clinical AI applications from retinal imaging.}
+  pdf={https://www.nature.com/articles/s41586-023-06555-x},
+  code={https://github.com/rmaphoh/RETFound_MAE},
+  abstract={Medical artificial intelligence (AI) offers great potential for recognizing signs of health conditions in retinal images and expediting the diagnosis of eye diseases and systemic disorders1. However, the development of AI models requires substantial annotation and models are usually task-specific with limited generalizability to different clinical applications2. Here, we present RETFound, a foundation model for retinal images that learns generalizable representations from unlabelled retinal images and provides a basis for label-efficient model adaptation in several applications. Specifically, RETFound is trained on 1.6 million unlabelled retinal images by means of self-supervised learning and then adapted to disease detection tasks with explicit labels. We show that adapted RETFound consistently outperforms several comparison models in the diagnosis and prognosis of sight-threatening eye diseases, as well as incident prediction of complex systemic disorders such as heart failure and myocardial infarction with fewer labelled data. RETFound provides a generalizable solution to improve model performance and alleviate the annotation workload of experts to enable broad clinical AI applications from retinal imaging.}
 }
 
 @InProceedings{pmlr-v172-xu22a,
