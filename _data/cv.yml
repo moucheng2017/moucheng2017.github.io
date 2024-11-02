@@ -9,10 +9,13 @@
 - title: Industry Experience
   type: time_table
   contents:
-    # - title: Research Scientist
-    #   institution: Agile Loop, London, UK
-    #   year: 2024 May - 
-    - title: Research Scientist
+    - title: Senior AI Engineer
+      institution: Medtronic, London, UK
+      year: 2024 Oct -  
+    - title: AI Engineer
+      institution: Agile Loop, London, UK
+      year: 2024 May - 2024 Oct
+    - title: AI Engineer
       institution: Odin Vision (now Olympus Corporation), London, UK
       year: 2023 Mar - 2024 May
 
@@ -57,6 +60,12 @@
 - title: Invited Talks
   type: time_table
   contents:
+    - year: 2024 June
+      items: 
+        - Hammer and Nail in AI Seminar, University of Catania
+    - year: 2024 April
+      items: 
+        - Panel Discussion, MSB Webniar on MICCAI Review, Rebuttal, Challenge and Workshop
     - year: 2023 Jul
       items: 
         - GSK Clinical Imaging Group, UK
