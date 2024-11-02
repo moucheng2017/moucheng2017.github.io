@@ -121,6 +121,243 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
+  <h2 class="year">2025</h2>
+  <ol class="bibliography"></ol>
+
+  <h2 class="year">2024</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="DeepMRI2024" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">MRI Parameter Mapping without Independent Voxel Assumption via Gaussian Mixture Variational Autoencoder</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Moucheng Xu, Yukun Zhou, Tobias Goodwin-Allcock, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Kimia Firoozabadi, Joseph Jacob, Daniel C. Alexander, Paddy J. Slator' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In NeurIPS Workshop on Machine Learning and the Physical Sciences</em>, Oct 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://github.com/moucheng2017/MRI-GMM-VAE" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We introduce and demonstrate a new paradigm for quantitative parameter mapping in MRI.
+Parameter mapping techniques, such as diffusion MRI and quantitative MRI, have the potential to robustly and repeatably measure biologically-relevant tissue maps that strongly relate to underlying microstructure.
+Quantitative maps are calculated by fitting a model to multiple images, e.g. with least-squares or machine learning. However, the overwhelming majority of model fitting techniques assume that each voxel is independent, ignoring any co-dependencies in the data. This makes model fitting sensitive to voxelwise measurement noise,  hampering reliability and repeatability.
+We propose a self-supervised deep variational approach that breaks the assumption of independent pixels, leveraging redundancies in the data to effectively perform data-driven regularisation of quantitative maps.  
+We demonstrate that our approach outperforms current model fitting techniques in dMRI simulations and real data, especially with a Gaussian mixture prior.
+Our approach enables improved quantitative maps and/or reduced acquisition times, and can hence support the clinical adoption of parameter mapping methods such as dMRI and qMRI.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="ICE_VLM2024" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">In-Context Ensemble Learning from Pseudo Labels Improves Video-Language Models for Low-Level Workflow Understanding</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Moucheng Xu, Evangelos Chatzaroulas, Luc McCutcheon, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Abdul Ahad, Hamzah Azeem, Janusz Marecki, Ammar Anwar' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In NeurIPS Workshop on Video-Language Models</em>, Oct 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/abs/2409.15867" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://github.com/moucheng2017/SOP-LVM-ICL-Ensemble" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>A Standard Operating Procedure (SOP) defines a step-by-step written guide for a business software workflow. SOP generation is a crucial step towards automating end-to-end software workflows. Manually creating SOPs can be time-consuming. Recent advancements in large video-language models offer the potential for automating SOP generation by analyzing recordings of human demonstrations. However, current large video-language models face challenges with zero-shot SOP generation. In this work, we first explore in-context learning with video-language models for SOP generation. We then propose In-Context Ensemble Learning, to aggregate pseudo labels of SOPs. The proposed in-context ensemble learning increases test-time compute and enables the models to learn beyond its context window limit with an implicit consistency regularisation. We report that in-context learning helps video-language models to generate more temporally accurate SOPs, and the proposed in-context ensemble learning can consistently enhance the capabilities of the video-language models in SOP generation.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="EMPL" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Expectation maximization pseudo labels</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Moucheng Xu Xu, Yukun Zhou, Chen Jin, and
+          <span class="more-authors" title="click to view 5 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '5 more authors' ? 'Marius Groot, Daniel C. Alexander, Neil P. Oxtoby, Yipeng Hu, Joseph Jacob' : '5 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">5 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Feb 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S1361841524000501" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://github.com/moucheng2017/EM-BPL-Semi-Seg" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In this paper, we study pseudo-labelling. Pseudo-labelling employs raw inferences on unlabelled data as pseudo-labels for self-training. We elucidate the empirical successes of pseudo-labelling by establishing a link between this technique and the Expectation Maximisation algorithm. Through this, we realise that the original pseudo-labelling serves as an empirical estimation of its more comprehensive underlying formulation. Following this insight, we present a full generalisation of pseudo-labels under Bayes’ theorem, termed Bayesian Pseudo Labels. Subsequently, we introduce a variational approach to generate these Bayesian Pseudo Labels, involving the learning of a threshold to automatically select high-quality pseudo labels. In the remainder of the paper, we showcase the applications of pseudo-labelling and its generalised form, Bayesian Pseudo-Labelling, in the semi-supervised segmentation of medical images. Specifically, we focus on: (1) 3D binary segmentation of lung vessels from CT volumes; (2) 2D multi-class segmentation of brain tumours from MRI volumes; (3) 3D binary segmentation of whole brain tumours from MRI volumes; and (4) 3D binary segmentation of prostate from MRI volumes. We further demonstrate that pseudo-labels can enhance the robustness of the learned representations.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="ZHOU2024103098" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">CF-Loss: Clinically-relevant feature optimised loss function for retinal multi-class vessel segmentation and vascular feature measurement</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Yukun Zhou, MouCheng Xu, Yipeng Hu, and
+          <span class="more-authors" title="click to view 5 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '5 more authors' ? 'Stefano B. Blumberg, An Zhao, Siegfried K. Wagner, Pearse A. Keane, Daniel C. Alexander' : '5 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">5 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Medical Image Analysis</em>, Mar 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="https://doi.org/10.1016/j.media.2024.103098"></span>
+              <span class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.media.2024.103098" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Characterising clinically-relevant vascular features, such as vessel density and fractal dimension, can benefit biomarker discovery and disease diagnosis for both ophthalmic and systemic diseases. In this work, we explicitly encode vascular features into an end-to-end loss function for multi-class vessel segmentation, categorising pixels into artery, vein, uncertain pixels, and background. This clinically-relevant feature optimised loss function (CF-Loss) regulates networks to segment accurate multi-class vessel maps that produce precise vascular features. Our experiments first verify that CF-Loss significantly improves both multi-class vessel segmentation and vascular feature estimation, with two standard segmentation networks, on three publicly available datasets. We reveal that pixel-based segmentation performance is not always positively correlated with accuracy of vascular features, thus highlighting the importance of optimising vascular features directly via CF-Loss. Finally, we show that improved vascular features from CF-Loss, as biomarkers, can yield quantitative improvements in the prediction of ischaemic stroke, a real-world clinical downstream task. The code is available at https://github.com/rmaphoh/feature-loss.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
   <h2 class="year">2023</h2>
   <ol class="bibliography">
 <li>
