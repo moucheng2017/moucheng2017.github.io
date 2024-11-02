@@ -29,6 +29,34 @@ Our approach enables improved quantitative maps and/or reduced acquisition times
   abstract={A Standard Operating Procedure (SOP) defines a step-by-step written guide for a business software workflow. SOP generation is a crucial step towards automating end-to-end software workflows. Manually creating SOPs can be time-consuming. Recent advancements in large video-language models offer the potential for automating SOP generation by analyzing recordings of human demonstrations. However, current large video-language models face challenges with zero-shot SOP generation. In this work, we first explore in-context learning with video-language models for SOP generation. We then propose In-Context Ensemble Learning, to aggregate pseudo labels of SOPs. The proposed in-context ensemble learning increases test-time compute and enables the models to learn beyond its context window limit with an implicit consistency regularisation. We report that in-context learning helps video-language models to generate more temporally accurate SOPs, and the proposed in-context ensemble learning can consistently enhance the capabilities of the video-language models in SOP generation.}
 }
 
+@artical{EMPL,
+  title = 	 {Expectation maximization pseudo labels},
+  author =       {Xu, Moucheng Xu and Zhou, Yukun and Jin, Chen and de Groot, Marius and Alexander, Daniel C. and Oxtoby, Neil P. and Hu, Yipeng and Jacob, Joseph},
+  journal = 	 {Medical Image Analysis -- Impact Factor: 10.7},
+  year = 	 {2024},
+  month = 	 {02},
+  publisher =  {Elsevier},
+  selected={false},
+  pdf = 	{https://www.sciencedirect.com/science/article/pii/S1361841524000501},
+  code = {https://github.com/moucheng2017/EM-BPL-Semi-Seg},
+  abstract={In this paper, we study pseudo-labelling. Pseudo-labelling employs raw inferences on unlabelled data as pseudo-labels for self-training. We elucidate the empirical successes of pseudo-labelling by establishing a link between this technique and the Expectation Maximisation algorithm. Through this, we realise that the original pseudo-labelling serves as an empirical estimation of its more comprehensive underlying formulation. Following this insight, we present a full generalisation of pseudo-labels under Bayes’ theorem, termed Bayesian Pseudo Labels. Subsequently, we introduce a variational approach to generate these Bayesian Pseudo Labels, involving the learning of a threshold to automatically select high-quality pseudo labels. In the remainder of the paper, we showcase the applications of pseudo-labelling and its generalised form, Bayesian Pseudo-Labelling, in the semi-supervised segmentation of medical images. Specifically, we focus on: (1) 3D binary segmentation of lung vessels from CT volumes; (2) 2D multi-class segmentation of brain tumours from MRI volumes; (3) 3D binary segmentation of whole brain tumours from MRI volumes; and (4) 3D binary segmentation of prostate from MRI volumes. We further demonstrate that pseudo-labels can enhance the robustness of the learned representations.}
+}
+
+@article{ZHOU2024103098,
+title = {CF-Loss: Clinically-relevant feature optimised loss function for retinal multi-class vessel segmentation and vascular feature measurement},
+journal = {Medical Image Analysis},
+volume = {93},
+pages = {103098},
+year = {2024},
+month={03},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2024.103098},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841524000239},
+author = {Yukun Zhou and MouCheng Xu and Yipeng Hu and Stefano B. Blumberg and An Zhao and Siegfried K. Wagner and Pearse A. Keane and Daniel C. Alexander},
+keywords = {Multi-class vessel segmentation, Vascular feature, Loss function},
+abstract = {Characterising clinically-relevant vascular features, such as vessel density and fractal dimension, can benefit biomarker discovery and disease diagnosis for both ophthalmic and systemic diseases. In this work, we explicitly encode vascular features into an end-to-end loss function for multi-class vessel segmentation, categorising pixels into artery, vein, uncertain pixels, and background. This clinically-relevant feature optimised loss function (CF-Loss) regulates networks to segment accurate multi-class vessel maps that produce precise vascular features. Our experiments first verify that CF-Loss significantly improves both multi-class vessel segmentation and vascular feature estimation, with two standard segmentation networks, on three publicly available datasets. We reveal that pixel-based segmentation performance is not always positively correlated with accuracy of vascular features, thus highlighting the importance of optimising vascular features directly via CF-Loss. Finally, we show that improved vascular features from CF-Loss, as biomarkers, can yield quantitative improvements in the prediction of ischaemic stroke, a real-world clinical downstream task. The code is available at https://github.com/rmaphoh/feature-loss.}
+}
+
 @artical{RETFound,
   title = 	 {A Foundation Model for Generalizable Disease Detection from Retinal Images},
   author =       {Zhou, Yukun and Chia Mark A. and Wagner, Siegfried K. and Ayhan Mura S. and Williamson, Dominic J. and Struyven, Robbert R. and Liu, Timing and Xu, Moucheng and Lozano, Mateo G
