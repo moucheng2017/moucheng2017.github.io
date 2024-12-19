@@ -9,7 +9,7 @@ profile:
   image: capy.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>230 City Road</p>
+    <p>230 City Road,</p>
     <p>London, UK</p>
 
 news: true # includes a list of news items
