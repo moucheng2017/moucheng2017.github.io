@@ -6,6 +6,16 @@
     - name: Languages
       value: English, Chinese (Mandarin, Xuanzhou Wu, Lower Yangtze Mandarin)
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior AI Engineer in Surgical Robot Vision
+      institution: Medtronic, London, UK
+      year: 2024.10 - 
+    - title: AI Engineer in Endoscopic Vision
+      institution: Odin Vision, London, UK
+      year: 2023.03 - 2024.05
+
 - title: Education
   type: time_table
   contents:
@@ -19,16 +29,6 @@
       institution: Cardiff University, Cardiff, UK
       year: 2014.10 - 2017.06
       
-- title: Experience
-  type: time_table
-  contents:
-    - title: Senior AI Engineer in Surgical Robot Vision
-      institution: Medtronic, London, UK
-      year: 2024.10 - 
-    - title: AI Engineer in Endoscopic Vision
-      institution: Odin Vision, London, UK
-      year: 2023.03 - 2024.05
-
 - title: Honors and Awards
   type: time_table
   contents:
