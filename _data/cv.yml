@@ -28,7 +28,19 @@
     - title: BEng(Hons) in Mechanical Engineering
       institution: Cardiff University, UK
       year: 2014.10 - 2017.06
-
+      
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - Runner-up for Young Scientist Award (Best Paper) at MICCAI 2022
+        - Student Travel Award (Highest scoring papers) at MICCAI 2022
+    - year: 2018
+      items:
+        - PhD studentship by GSK
+        - Dean's prize by UCL Engineering
+        
 - title: Invited Talks
   type: time_table
   contents:
@@ -48,17 +60,7 @@
       items:
         - MIDL Oral presentation at ETH Zurich, Zurich, Switzerland
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2022
-      items:
-        - Runner-up for Young Scientist Award (Best Paper) at MICCAI 2022
-        - Student Travel Award (Highest scoring papers) at MICCAI 2022
-    - year: 2018
-      items:
-        - PhD studentship by GSK
-        - Dean's prize by UCL Engineering
+
 
 
 
