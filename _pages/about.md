@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an AI researcher in MedTech. My work was named a finalist for the Young Scientist Award (Best Paper) at MICCAI 2022 (top 0.8%, 15 / 1835 submissions). My work has also resulted in a regulator-approved product, featured in the <a href='https://www.olympus-global.com/news/2024/nr02759.html'>media</a>. My main research interest focuses on developing end-to-end deep learning models to learn from medical data, brining fairer, better and safer healthcare to the patients. 
+I am an AI researcher and engineer. My work was named a finalist for the Young Scientist Award (Best Paper) at MICCAI 2022 (top 0.8%, 15 / 1835 submissions). My work has also resulted in a regulator-approved product, featured in the <a href='https://www.olympus-global.com/news/2024/nr02759.html'>media</a>. My main research interest focuses on developing end-to-end deep learning models to learn from medical data, brining fairer, better and safer healthcare to the patients. 
 
 Priorly, I obtained my PhD in medical image computing from University College London, under the supervisions of <a href='https://scholar.google.com/citations?user=XCcV5ocAAAAJ&hl=en'>Joseph Jacob</a>, <a href='https://scholar.google.com/citations?user=mH-ZOQEAAAAJ&hl=en'>Daniel C. Alexander</a>, <a href='https://scholar.google.com/citations?user=uWfRPHEAAAAJ&hl=en'>Neil P. Oxtoby</a>, <a href='https://scholar.google.com/citations?user=sZ4UbusAAAAJ&hl=en'>Marius de Groot</a>, Fred Wilson. 
 
