@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior AI Engineer in Surgical Robot Vision at <a href='https://www.medtronic.com/uk-en/index.html'>Medtronic</a>
+subtitle: Senior AI Engineer in Surgical Robot Vision at <a href='https://www.medtronic.com/uk-en/our-company/key-facts.html'>Medtronic</a>
 
 profile:
   align: right
