@@ -1,19 +1,12 @@
 ---
-title: "My First Blog Post"
-date: 2025-07-05
-description: "A quick introduction to my new blog!"
-categories: [personal]
-tags: [introduction, welcome]
-featured: true
-thumbnail: /assets/img/sample-thumbnail.jpg # Optional: replace with your image path or remove this line
+layout: post
+title: first blog
+date: 2025-07-05 11:59:00-0400
+description: my first blog
+tags: comments
+categories: sample-posts external-services
+disqus_comments: true
+related_posts: false
 ---
 
-Welcome to my blog! This is my very first post. Here, I plan to share updates, thoughts, and resources related to my work and interests.
-
-## What to Expect
-
-- Project updates
-- Technical tutorials
-- Personal reflections
-
-Stay tuned for more content!
+My first blog posts.
