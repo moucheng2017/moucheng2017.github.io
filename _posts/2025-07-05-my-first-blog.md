@@ -7,6 +7,18 @@ tags: comments
 categories: perspective
 disqus_comments: true
 related_posts: false
+featured: true
+mermaid:
+  enabled: true
+  zoomable: true
+code_diff: true
+map: true
+chart:
+  chartjs: true
+  echarts: true
+  vega_lite: true
+tikzjax: true
+typograms: true
 ---
 
 TBH
