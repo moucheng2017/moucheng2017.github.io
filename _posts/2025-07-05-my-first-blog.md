@@ -20,12 +20,14 @@ chart:
 tikzjax: true
 typograms: true
 ---
+## Why would we need a disease world model?
+Every day it has become more and more clear that a LLM based AI system can get really good at diagnosis. 
 
-## Abstract
+
+## What could we do with a disease world model?
 What if patients not only received their current medical scans, but also future medical scans, with virtual interventions? Doctors could directly observe the progression of patients' conditions, allowing them to suggest personalised early treatment planning years before serious conditions emerge. Patients could also gain a better understanding of their conditions, facilitating easier communication between patients and doctors. Furthermore, pharmaceutical companies could determine the endpoints of drug trials based on direct visual evidence. Such scenarios might seem far-fetched, but recent progress in world models could offer a solution towards their realization. World models are generative AI models that simulate open-ended, video-based digital worlds, providing unlimited environments for training AI agents and potentially unlocking the pathway to general artificial intelligence. The increasing use of medical imaging across various medical fields has accumulated a vast amount of temporal imaging data, analogous to videos, subsequently making it feasible to adapt world models for healthcare applications. In this perspective paper, we discuss the prospects of world models in healthcare. In particular, we coin the concept of Disease World Model and provide its formal definition. We as well discuss an unified architecture for building such a Disease World Model, based on medical imaging or with patients' meta data. 
 
 ## Setup
-
 * We define **synthetic artifacts** $X$, as high-dimensional clinical representations (e.g., medical images, medical images + lab reports) of an individual $i \in \{1, ..., N\}$.
 * Let $G$ be a **generative system** that produces a temporal sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$, where $X_i^t$ is the artifact for individual $i$ at time stamp $t$, $D_i$ is the death time point of the individual $i$.
 * Let the **real artifacts** of an individual $i \in \{1, ..., N\}$ be $\{Y_i^t\}_{t=S}^{t=E}$, where the real clinical representations are available during the time period between the starting point $t=S$ and the end point $t=E$.
