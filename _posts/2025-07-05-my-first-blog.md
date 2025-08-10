@@ -28,7 +28,7 @@ mathjax: true
 
 **Contents of this blog**: This blog will first lay out the definitions of a Disease World Model, which provides a few future research directions and opportunities. Some early use cases with promising results on lung fibrosis will later be discussed.
 
-**Invites for collaborators** This is a work in progress, so please feel free to contact me if you find a typo, a mistake, or would like to discuss or collaborate.
+**Invites for collaborators** This is a work in progress, so please feel free to contact me if you find a typo, a mistake, or would like to discuss or collaborate. [xumoucheng28@gmail.com](mailto:xumoucheng28@gmail.com).
 
 <img src="/assets/img/blog_disease_world_models/dwm_vs_llm.png" alt="Disease World Models vs LLMs" width="100%" style="max-width: 800px; height: auto;">
 
