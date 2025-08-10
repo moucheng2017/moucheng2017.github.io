@@ -29,7 +29,7 @@ typograms: true
 
 **Invites for collaborators** This is a work in progress, so please feel free to contact me if you find a typo, a mistake, or would like to discuss or collaborate.
 
-![Disease World Models vs LLMs](/assets/img/blog_disease_world_models/dwm_vs_llm.png)
+<img src="/assets/img/blog_disease_world_models/dwm_vs_llm.png" alt="Disease World Models vs LLMs" style="max-width:100%;height:auto;" />
 
 *Figure 1: Comparison between Disease World Models and Large Language Models in AI driven healthcare. LLMs can do diagnosis but Disease World Models can do more, even personalised medicine.*
 
@@ -86,7 +86,7 @@ This ensures that the sequence contains a unique signature of the individual's d
 
 
 ## How to train such a Disease World Model
-![Training](/assets/img/blog_disease_world_models/dwm_training.png)
+<img src="/assets/img/blog_disease_world_models/dwm_training.png" alt="Training" style="max-width:100%;height:auto;" />
 
 *Figure 2: A proposal for the training strategy of a disease world model.*
 
@@ -98,13 +98,13 @@ This ensures that the sequence contains a unique signature of the individual's d
 
 *Figure 3: An example of generated synthetic imaging medical artifacts sequence compared against the real sequence. Note that the real scans only contain scans at time point year 0, year2, year 3.5, but the generated scans have more time points at year 0, year 1.5, year 2, year 3.5, year 5.5.*
 
-![synthetic scans detailed](/assets/img/publication_preview/4dvqgan_example.png)
+<img src="/assets/img/publication_preview/4dvqgan_example.png" alt="Synthetic scans detailed" style="max-width:100%;height:auto;" />
 
 *Figure 4: Highlighted key visual features of lung fibrosis in generated imaging artifacts. A zoomed region of the left lower lobe (yellow box) in the real and generated CT scans show comparable amounts of architectural distortion, patterned ground glass opacification and reticulation, all hallmarks of lung fibrosis. The availability of our scans are not uniform across time and across patients, the model is trained on scans at irregular time points*
 
 **Verifiable Clinical Reliability**: We explore our model’s clinical utility using a survival analysis based approach to mimic the clinical workflows. Radiologists track prognostic imaging biomarkers in IPF over time to assess disease progression. Though we lack comprehensive visual scores for all cases, we propose a method that mirrors clinical workflows, including selecting key prognostic biomarkers, analyzing their longitudinal changes, and comparing their prognostic value in synthesized vs. real scans. These extracted imaging biomarkers, along with the covariates, are input into the Cox model to assess their prognostic value in the test dataset. This analysis evaluates the consistency of biomarker trajectories between real and synthetic scans, and explores the potential utility of synthetic scans in tracking changes over time. As shown in the below results, it is very interesting to see that the he generated CT images can yield survival outcomes that are sometimes even more accurate than those derived from the real images. However, these results may be overestimated due to the limited sample size. 
 
-![survival outcomes](/assets/img/blog_disease_world_models/survival_outcomes.png)
+<img src="/assets/img/publication_preview/survival_outcomes.png" alt="survival" style="max-width:100%;height:auto;" />
 
 *Figure 5: For the cross-sectional imaging biomarker, the C-index using the generated third scans is 0.943. In comparison, using biomarkers derived from real CT scans for survival prediction yields a slightly lower C-index of 0.914.
 Next, we compute the longitudinal biomarker by evaluating the change in these top five
