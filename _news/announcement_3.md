@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-08-10 07:59:00-0400
-inline: true
+inline: false
 related_posts: 
   - /posts/2025-07-05-my-first-blog/
 ---
