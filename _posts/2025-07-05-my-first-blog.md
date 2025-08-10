@@ -39,8 +39,8 @@ What if patients not only received their current medical scans, but also future 
 
 ## Setup for Disease World Model
 Before we dive into the formal definitions, we need to define a few terms:
-* $X$: synthetic artifacts, as high-dimensional clinical representations (e.g., medical images, medical images + lab reports) of an individual $i \in \{1, ..., N\}$.
-* $G$: a generative system that produces a temporal sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$, where $X_i^t$ is the artifact for individual $i$ at time stamp $t$, $D_i$ is the death time point of the individual $i$.
+* $$X$$: synthetic artifacts, as high-dimensional clinical representations (e.g., medical images, medical images + lab reports) of an individual $$i \in \{1, ..., N\}$$.
+* $$G$$: a generative system that produces a temporal sequence of artifacts $$\{X_i^t\}_{t=0}^{t=D_i}$$, where $X_i^t$ is the artifact for individual $i$ at time stamp $t$, $D_i$ is the death time point of the individual $i$.
 * $Y$: real artifacts of an individual $i \in \{1, ..., N\}$ be $\{Y_i^t\}_{t=S}^{t=E}$, where the real clinical representations are available during the time period between the starting point $t=S$ and the end point $t=E$.
 * $M$: a diagnostic agent (e.g., human doctors, clinical LLM) that can map the clinical representations ($X$ and $Y$) to diagnosis. The accuracy of the diagnosis is measured by a metric $\mathcal{L}$.
 * $I$: an identification function to recognise the identifies of all sequences of the medical artifacts.
