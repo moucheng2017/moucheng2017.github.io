@@ -171,6 +171,9 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  math_engine: mathjax
+  math_engine_opts:
+    preview: false
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
@@ -178,6 +181,7 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+    
 
 # Includes & excludes
 include: ["_pages"]
