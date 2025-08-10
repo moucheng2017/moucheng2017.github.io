@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Disease worlds are necessary for personalised medicine
+title: Disease worlds models are essential for personalised medicine 
 date: 2025-07-05 11:59:00-0400
 description: first blog
 tags: comments
