@@ -4,8 +4,10 @@
     <script type="text/javascript">
       window.MathJax = {
         tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
           tags: 'ams',
-        },
+        }
       };
     </script>
     <script
@@ -15,22 +17,5 @@
       integrity="{{ site.third_party_libraries.mathjax.integrity.js }}"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="{{ site.third_party_libraries.polyfill.url.js }}"
-      crossorigin="anonymous"
-    ></script>
-    <script type="text/javascript">
-      window.MathJax = {
-        tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$', '$$'], ['\\[', '\\]']],
-          tags: 'ams',
-        },
-        options: {
-          ignoreHtmlClass: ".*|",
-          processHtmlClass: "arithmatex"
-        }
-      };
-    </script>
   {% endunless %}
 {% endif %}
