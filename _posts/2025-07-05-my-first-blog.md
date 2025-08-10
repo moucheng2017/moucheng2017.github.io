@@ -19,6 +19,7 @@ chart:
   vega_lite: true
 tikzjax: true
 typograms: true
+mathjax: true
 ---
 ## LLM based healthcare AI is NOT enough for personalised medicine:
 **LLM is not for personalised medicine**: Every day it has become more evident that current LLMs will one day be as good as human doctors at making diagnoses. However, personalised medicine is far beyond just making a diagnosis. Unfortunately, I do not think that the current LLM systems or their future versions are designed for accurate personalised medicine. This is because they can only access partial clinical representations of patients, rather than looking holistically at the whole picture at both the individual and population levels.
