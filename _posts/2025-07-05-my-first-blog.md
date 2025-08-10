@@ -5,7 +5,7 @@ date: 2025-07-05 11:59:00-0400
 description: first blog
 tags: comments
 categories: perspective
-disqus_comments: true
+disqus_comments: false
 related_posts: false
 featured: true
 mermaid:
