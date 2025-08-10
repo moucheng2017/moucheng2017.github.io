@@ -92,7 +92,7 @@ This ensures that the sequence contains a unique signature of the individual's d
 *Figure 2: A proposal for the training strategy of a disease world model.*
 
 
-## An Early Attempted Use Case that is applied to lung fibrosis disease progression modelling
+## An early attempted use case that is applied to lung fibrosis disease progression modelling
 **4D-VQGAN**: We built an AI model called 4D VQ-GAN for disease progression modelling of the lung fibrosis disease that satisfies the clinical reliability condition of a disease world model. In the context of the disease progression, we can adapt temporal medical imaging as the environments, on the analogy as using the videos as environments in physical world models. As a proof of concept, our early attempt only focus on only one interactive action with the virtual progression trajectories, which is the time. The technical details of this preliminary study can be found in the published conference paper: [4D VQGAN](https://openreview.net/forum?id=tU3IpPQCEc&noteId=tU3IpPQCEc). Given two 3D CT scans of an Idiopathic Pulmonary Fibrosis patient at irregular time points, 4D VQ-GAN can generate synthetic 3D images at any desired time point, effectively modelling a virtual continuous disease progression trajectory for each individual. More importantly, we found that biomarkers derived from the generated CT volumes exhibit a strong clinical correlation with survival outcome, partially satisfying the clinical reliability condition as defined above, thereby highlighting the potential of 4D VQ-GAN for personalized treatment planning.
 
 ![synthetic scans gif](/assets/img/publication_preview/side_by_side_1200_border.gif)
