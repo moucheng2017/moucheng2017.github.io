@@ -30,7 +30,7 @@ mathjax: true
 
 **Invites for collaborators** This is a work in progress, so please feel free to contact me if you find a typo, a mistake, or would like to discuss or collaborate. [xumoucheng28@gmail.com](mailto:xumoucheng28@gmail.com).
 
-<img src="/assets/img/blog_disease_world_models/dwm_vs_llm.png" alt="Disease World Models vs LLMs" width="100%" style="max-width: 800px; height: auto;">
+<img src="/assets/img/blog_disease_world_models/dwm_vs_llms.png" alt="Disease World Models vs LLMs" width="100%" style="max-width: 800px; height: auto;">
 
 *Figure 1: Comparison between Disease World Models and Large Language Models in AI driven healthcare. LLMs can do diagnosis but Disease World Models can do more, even personalised medicine.*
 
