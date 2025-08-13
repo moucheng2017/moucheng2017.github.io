@@ -7,4 +7,4 @@ related_posts:
   - /posts/2025-07-05-my-first-blog/
 ---
 
-I wrote my first blog to share some of my thoughts on defining the new concept, disease world models for personalised medicine. [Read the related blog post here](/posts/2025-07-05-my-first-blog.md) I have been wanting to write this blog for a very long time, ever since I saw the first Genie world model came out. I finally found sometime this weekend to put my thoughts into a blog.  
+I wrote my first blog to share some of my thoughts on defining the new concept, disease world models for personalised medicine. [Read the related blog post here](/_posts/2025-07-05-my-first-blog.md) I have been wanting to write this blog for a very long time, ever since I saw the first Genie world model came out. I finally found sometime this weekend to put my thoughts into a blog.  
