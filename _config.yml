@@ -181,7 +181,6 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
-    
 
 # Includes & excludes
 include: ["_pages"]
@@ -267,7 +266,6 @@ jekyll-archives:
 
 display_tags: ["perspective"] # these tags will be displayed on the front page of your blog
 display_categories: ["perspective"] # these categories will be displayed on the front page of your blog
-
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -624,7 +622,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
