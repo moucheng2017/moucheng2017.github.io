@@ -57,10 +57,10 @@ Before we dive into the formal definitions, we need to define a few terms:
 
 A generative system $G$ is a **Disease World Model** if its generated artifact sequences $\{X_i^t\}_{t=0}^{t=E_i}$ satisfy the following properties for all individuals $i$.
 
-1. **Clinical Comprehensiveness:** Each generated artifact $X_i^t$ should contain the complete _comprehensive_ clinical representation of the patient that it can be converted into any data format that is interpretable to human doctors.
+1. **Clinical Comprehensiveness:** Each generated artifact $X_i^t$ should contain the complete comprehensive clinical representation of the patient that it can be converted into any data format that is interpretable to human doctors.
 2. **Clinical Reliability:** Each generated artifact $X_i^t$ is _clinically reliable_ for all $t$.
 3. **Interventional Validity:** Each generated artifact sequence under a virtual intervention is realistic and reliable.
-4. **Individual Characterisability:** Each generated artifact sequence $\{X_i^t\}_{t=0}^{t=E_i}$ is _individually_ _characterisable_.
+4. **Individual Characterisability:** Each generated artifact sequence $\{X_i^t\}_{t=0}^{t=E_i}$ is _individually characterisable_.
 
 ---
 
