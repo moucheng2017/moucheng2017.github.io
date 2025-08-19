@@ -60,7 +60,7 @@ A generative system $G$ is a **Disease World Model** if its generated artifact s
 1. **Clinical Comprehensiveness:** Each generated artifact $X_i^t$ should contain the complete _comprehensive_ clinical representation of the patient that it can be converted into any data format that is interpretable to human doctors.
 2. **Clinical Reliability:** Each generated artifact $X_i^t$ is _clinically reliable_ for all $t$.
 3. **Interventional Validity:** Each generated artifact sequence under a virtual intervention is realistic and reliable.
-4. **Individual Characterisability:** Each generated artifact sequence $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually characterizable_.
+4. **Individual Characterisability:** Each generated artifact sequence $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually_ _characterisable_.
 
 ---
 
@@ -93,16 +93,16 @@ An artifact $X_i^t$ is **clinically reliable** if, for a given diagnostic agent 
 
 ## Definition 1.3: Interventional Validity
 
-Let $\mathcal{I}$ be a virtual clinical intervention (e.g., administering a drug, performing surgery) applied at time $t_{\mathcal{I}}$. The generative system $G$ has _interventional validity_ if it can generate a reliable counterfactual sequence $\{X_i^t | \mathcal{I}\}_{t=t_{\mathcal{I}}}^{D_i}$ that satisfies the following conditions:
+Let $\mathcal{I}$ be a virtual clinical intervention (e.g., administering a drug, performing surgery) applied at time $t_{\mathcal{I}}$. The generative system $G$ has _interventional_ _validity_ if it can generate a reliable counterfactual sequence $\{X_i^t | \mathcal{I}\}_{t=t_{\mathcal{I}}}^{D_i}$ that satisfies the following conditions:
 
 1. **Counterfactual Plausibility**: The generated post-intervention trajectory $\{X_i^t | \mathcal{I}\}$ is clinically plausible and consistent with established medical knowledge regarding the effects of intervention $\mathcal{I}$. This ensures that the interactions injected from the physical world have meaningful consequences to the artifacts. One of the simplest interactions can be the change of time, to see the artifacts at different arbitrary time points.
-2. **Post-Intervention Reliability**: Each artifact $X_i^t | \mathcal{I}$ generated after the intervention (i.e., for $t \ge t_{\mathcal{I}}$) remains _clinically reliable_ as defined in Definition 1.2. This ensures that the effectiveness of the virtual clinical interactions can be trusted and directly assessed for drug developments and personal treatment planning.
+2. **Post-Intervention Reliability**: Each artifact $X_i^t | \mathcal{I}$ generated after the intervention (i.e., for $t \ge t_{\mathcal{I}}$) remains _clinically_ _reliable_ as defined in Definition 1.2. This ensures that the effectiveness of the virtual clinical interactions can be trusted and directly assessed for drug developments and personal treatment planning.
 
 ---
 
 ## Definition 1.4: Individual Characterisability
 
-A sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually characterisable_ to ensure that the sequence contains a unique signature of the individual's disease progressionif, it satisfies the following conditions:
+A sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually_ _characterisable_ to ensure that the sequence contains a unique signature of the individual's disease progressionif, it satisfies the following conditions:
 
 1. **Identifiability:** There exists an identification function $I: (\mathcal{A}^*) \to \{1, ..., N\}$, where $\mathcal{A}^*$ is the space of all possible sequences, that can identify the individual $i$ from their generated sequence with a high probability $\beta$ close to 1.
 
