@@ -120,6 +120,8 @@ A sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually_ _characteris
 
 ## How to train such a Disease World Model
 
+To be updated
+
 <img src="/assets/img/blog_disease_world_models/dwm_training.png" alt="Training" width="100%" style="max-width: 800px; height: auto;">
 
 _Figure 2: A proposal for the training strategy of a disease world model._
