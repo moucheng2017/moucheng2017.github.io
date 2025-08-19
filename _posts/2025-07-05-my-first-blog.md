@@ -102,7 +102,7 @@ Let $\mathcal{I}$ be a virtual interaction (e.g., administering a drug, performi
 
 ## Definition 1.4: Individual Characterisability
 
-A sequence of artifacts $\{X_i^t\}_{t=0}^{t=E_i}$ is _individually_ _characterisable_ to ensure that the sequence contains a unique signature of the individual's disease progressionif, it satisfies the following conditions:
+A sequence of artifacts $\{X_i^t\}_{t=0}^{t=E_i}$ is _individually_ _characterisable_ to ensure that the sequence contains a unique signature of the individual's disease progression, if it satisfies the following conditions:
 
 1. **Identifiability:** There exists an identification function $I$ that can identify the individual $i$ from their generated sequence with a high probability $\beta$ close to 1.
 
