@@ -24,7 +24,7 @@ mathjax: true
 
 ## LLM based healthcare AI is NOT enough for personalised medicine:
 
-**LLM is not for personalised medicine**: Every day it has become more evident that current LLMs will one day be as good as human doctors at making diagnoses. However, personalised medicine is far beyond just making a diagnosis. Unfortunately, I do not think that the current LLM systems or their future versions are designed for accurate personalised medicine. This is because they can only access partial clinical representations of patients, rather than looking holistically at the whole picture at both the individual and population levels.
+**LLM is not for personalised medicine**: Every day it has become more evident that current LLMs will one day be as good as human doctors at making diagnoses. However, personalised medicine is far beyond just making a diagnosis. Unfortunately, I do not think that the current LLM systems or their future versions are designed for accurate personalised medicine. This is because they can only access partial clinical representations of patients, rather than looking holistically at the whole picture at both the individual and population levels. 
 
 **World Models for personalised medicine**: Recent progress in World Models has shed some light on how to realise personalised medicine for humanity using AI. World Models, such as the Google Genie series, can create physical worlds with interactive virtual environments. By analogy, we could create a Disease World Model that is fully aware of patients' clinical representations, with an interactive environment for virtual interactions. Such a model would be able to perform virtual screening to save patients from a preventative perspective. The Disease World Model should also be able to provide virtual personal disease progression modelling for optimal treatment planning, and it could even be helpful for personalised drug development with virtual interventions.
 
@@ -48,19 +48,28 @@ Before we dive into the formal definitions, we need to define a few terms:
 - $Y$: real artifacts of an individual $i \in \{1, ..., N\}$ be $\{Y_i^t\}_{t=S}^{t=E}$, where the real clinical representations are available during the time period between the starting point $t=S$ and the end point $t=E$.
 - $M$: a diagnostic agent (e.g., human doctors, clinical LLM) that can map the clinical representations ($X$ and $Y$) to diagnosis. The accuracy of the diagnosis is measured by a metric $\mathcal{L}$.
 - $I$: an identification function to recognise the identities of all sequences of the medical artifacts.
-
+- $f_Y$: a mapping function that can transform the generated artifact $X$ into another interpretable data format $Y$.
+- $\mathcal{I}$: a virtual intervention. 
 ---
 
 ## Definition 1: Disease World Model
 
-A generative system $G$ is a **Disease World Model** if its generated artifact sequences $\{X_i^t\}_{t=0}^{t=D_i}$ satisfy the following two properties for all individuals $i$.
+A generative system $G$ is a **Disease World Model** if its generated artifact sequences $\{X_i^t\}_{t=0}^{t=D_i}$ satisfy the following properties for all individuals $i$.
 
-1.  **Clinical Reliability:** Each generated artifact $X_i^t$ is _clinically reliable_ for all $t$.
-2.  **Individual Characterizability:** Each generated artifact sequence $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually characterizable_.
+1. **Clinical Comprehensiveness:** Each generated artifact $X_i^t$ should contain the complete _comprehensive_ clinical representation of the patient that it can be converted into any data format that is interpretable to human doctors.  
+2. **Clinical Reliability:** Each generated artifact $X_i^t$ is _clinically reliable_ for all $t$.
+3. **Interventional Validity:** Each generated artifact sequence under a virtual intervention is realistic and reliable.
+4. **Individual Characterisability:** Each generated artifact sequence $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually characterizable_.
 
 ---
 
-## Definition 1.1: Clinical Reliability
+## Definition 1.1: Clinical Comprehensiveness
+An artifact $X_i^t$ is considered _clinically comprehensive_ if it satisfies two conditions:
+1. **Comprehensive Representation:** The artifact must encode the complete clinical state of the patient at a given time, rather than a single data modality.
+2. **Functional Convertibility:** There must exist a set of mapping functions $\{f_Y\}$ capable of converting the artifact $X_i^t$ into any clinically relevant target format $Y$ (e.g., medical image, text report, time-series data) that is interpretable by human doctors. Each function performs the transformation $Y_i^t = f_Y(X_i^t)$. This ensures that a lot of the existing clinical workflows in the physical world can still be applied on the generated artifacts. It also verifies that the generated artifacts can be directly examined for their correctness. 
+---
+
+## Definition 1.2: Clinical Reliability
 
 An artifact $X_i^t$ is **clinically reliable** if, for a given diagnostic agent $M$ and accuracy metric $\mathcal{L}$, the following conditions hold:
 
@@ -74,17 +83,30 @@ An artifact $X_i^t$ is **clinically reliable** if, for a given diagnostic agent 
 
     $L(M(X_i^{t_1})) \le L(M(X_i^{t_2})), \quad t_1 < t_2$
 
-    This condition ensures the diagnostic utility of the synthetic artifacts is reliable, even for future unseen timepoints.
+    Commonly, existing ML models struggle with predicting a time point that is too far away from now on. This condition ensures the diagnostic utility of the synthetic artifacts is reliable, even for future unseen timepoints.
 
 ---
 
-## Definition 1.2: Individual Characterizability
+## Definition 1.3: Interventional Validity
+Let $\mathcal{I}$ be a virtual clinical intervention (e.g., administering a drug, performing surgery) applied at time $t_{\mathcal{I}}$. The generative system $G$ has _interventional validity_ if it can generate a reliable counterfactual sequence $\{X_i^t | \mathcal{I}\}_{t=t_{\mathcal{I}}}^{D_i}$ that satisfies the following conditions:
+1. **Counterfactual Plausibility**: The generated post-intervention trajectory $\{X_i^t | \mathcal{I}\}$ is clinically plausible and consistent with established medical knowledge regarding the effects of intervention $\mathcal{I}$. This ensures that the interactions injected from the physical world have meaningful consequences to the artifacts. One of the simplest interactions can be the change of time, to see the artifacts at different arbitrary time points.
+2. **Post-Intervention Reliability**: Each artifact $X_i^t | \mathcal{I}$ generated after the intervention (i.e., for $t \ge t_{\mathcal{I}}$) remains _clinically reliable_ as defined in Definition 1.2. This ensures that the effectiveness of the virtual clinical interactions can be trusted and directly assessed for drug developments and personal treatment planning. 
+---
 
-A sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$ is **individually characterizable** if there exists an identification function $I: \mathcal{X} \to \{1, ..., N\}$ (where $\mathcal{X}$ is the space of all possible sequences) that can identify the individual $i$ from their generated sequence with a high probability $\beta$ close to 1.
+## Definition 1.4: Individual Characterisability
 
-$\mathbb{P}(I(\{X_i^t\}_{t=0}^{t=D_i}) = i) \ge \beta$
+A sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually characterisable_ to ensure that the sequence contains a unique signature of the individual's disease progressionif, it satisfies the following conditions:
 
-This ensures that the sequence contains a unique signature of the individual's disease progression, preventing the model from generating generic sequences or wrong sequences. An example of such an ientification function $I$ is an unsupervised contrastive clustering algorithm at a very granular level.
+1. **Identifiability:** There exists an identification function $I: (\mathcal{A}^*) \to \{1, ..., N\}$, where $\mathcal{A}^*$ is the space of all possible sequences, that can identify the individual $i$ from their generated sequence with a high probability $\beta$ close to 1.
+
+    $\mathbb{P}(I(\{X_i^t\}_{t=0}^{t=D_i}) = i) \ge \beta$
+
+    An example of such an ientification function $I$ is an unsupervised contrastive clustering algorithm at a very granular level.
+2. **Endpoint Fidelity:** The generated trajectory for an individual must terminate at a clinically plausible endpoint. When the ground-truth time of death, $D_i^*$, is available for comparison, the sequence's simulated time of death, $D_i$, must align with it within a predefined, clinically acceptable margin $\delta_D$.
+
+    $|D_i - D_i^*| \le \delta_D$
+
+    This ensures the model accurately captures the overall duration and prognostic outcome of the individual's specific disease progression pattern. 
 
 ---
 
