@@ -93,7 +93,7 @@ An artifact $X_i^t$ is **clinically reliable** if, for a given diagnostic agent 
 
 ## Definition 1.3: Interventional Validity
 
-Let $\mathcal{I}$ be a virtual interaction (e.g., administering a drug, performing surgery, changing of the time) applied at time $t_{\mathcal{I}}$. The generative system $G$ has _interventional validity_ if it can generate a reliable counterfactual sequence $\{ X_i^t \mid \mathcal{I} \}_{t = t_{\mathcal{I}}}^{D_i}$ that satisfies the following conditions:
+Let $\mathcal{I}$ be a virtual interaction (e.g., administering a drug, performing surgery, changing of the time) applied at time $t_{\mathcal{I}}$. The generative system $G$ has _interventional validity_ if it can generate a reliable counterfactual sequence that satisfies the following conditions:
 
 1. **Counterfactual Plausibility**: The generated post-intervention trajectory $\{ X_i^t \mid \mathcal{I} \}$ is clinically plausible and consistent with established medical knowledge regarding the effects of intervention $\mathcal{I}$. This ensures that the interactions injected from the physical world have meaningful consequences to the artifacts. One of the simplest interactions can be the change of time, to see the artifacts at different arbitrary time points.
 2. **Post-Intervention Reliability**: Each artifact $X_i^t \mid \mathcal{I}$ generated after the intervention (i.e., for $t \geq t_{\mathcal{I}}$) remains _clinically reliable_ as defined in Definition 1.2. This ensures that the effectiveness of the virtual clinical interactions can be trusted and directly assessed for drug developments and personal treatment planning.
@@ -112,7 +112,7 @@ A sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually_ _characteris
 
 2. **Endpoint Fidelity:** The generated trajectory for an individual must terminate at a clinically plausible endpoint. When the ground-truth time of death, $D_i^*$, is available for comparison, the sequence's simulated time of death, $D_i$, must align with it within a predefined, clinically acceptable margin $\delta_D$.
 
-   $|D_i - D_i^*| \le \delta_D$
+   $D_i - D_i^* \le \delta_D$
 
    This ensures the model accurately captures the overall duration and prognostic outcome of the individual's specific disease progression pattern.
 
