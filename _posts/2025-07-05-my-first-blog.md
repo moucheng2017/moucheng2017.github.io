@@ -93,10 +93,10 @@ An artifact $X_i^t$ is **clinically reliable** if, for a given diagnostic agent 
 
 ## Definition 1.3: Interventional Validity
 
-Let $\mathcal{I}$ be a virtual clinical intervention (e.g., administering a drug, performing surgery) applied at time $t_{\mathcal{I}}$. The generative system $G$ has _interventional_ _validity_ if it can generate a reliable counterfactual sequence $\{X_i^t | \mathcal{I}\}_{t=t_{\mathcal{I}}}^{D_i}$ that satisfies the following conditions:
+Let $\mathcal{I}$ be a virtual interaction (e.g., administering a drug, performing surgery, changing of the time) applied at time $t_{\mathcal{I}}$. The generative system $G$ has _interventional validity_ if it can generate a reliable counterfactual sequence $\{ X_i^t \mid \mathcal{I} \}_{t = t_{\mathcal{I}}}^{D_i}$ that satisfies the following conditions:
 
-1. **Counterfactual Plausibility**: The generated post-intervention trajectory $\{X_i^t | \mathcal{I}\}$ is clinically plausible and consistent with established medical knowledge regarding the effects of intervention $\mathcal{I}$. This ensures that the interactions injected from the physical world have meaningful consequences to the artifacts. One of the simplest interactions can be the change of time, to see the artifacts at different arbitrary time points.
-2. **Post-Intervention Reliability**: Each artifact $X_i^t | \mathcal{I}$ generated after the intervention (i.e., for $t \ge t_{\mathcal{I}}$) remains _clinically_ _reliable_ as defined in Definition 1.2. This ensures that the effectiveness of the virtual clinical interactions can be trusted and directly assessed for drug developments and personal treatment planning.
+1. **Counterfactual Plausibility**: The generated post-intervention trajectory $\{ X_i^t \mid \mathcal{I} \}$ is clinically plausible and consistent with established medical knowledge regarding the effects of intervention $\mathcal{I}$. This ensures that the interactions injected from the physical world have meaningful consequences to the artifacts. One of the simplest interactions can be the change of time, to see the artifacts at different arbitrary time points.
+2. **Post-Intervention Reliability**: Each artifact $X_i^t \mid \mathcal{I}$ generated after the intervention (i.e., for $t \geq t_{\mathcal{I}}$) remains _clinically reliable_ as defined in Definition 1.2. This ensures that the effectiveness of the virtual clinical interactions can be trusted and directly assessed for drug developments and personal treatment planning.
 
 ---
 
