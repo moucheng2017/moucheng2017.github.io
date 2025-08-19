@@ -104,7 +104,7 @@ Let $\mathcal{I}$ be a virtual clinical intervention (e.g., administering a drug
 
 A sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually_ _characterisable_ to ensure that the sequence contains a unique signature of the individual's disease progressionif, it satisfies the following conditions:
 
-1. **Identifiability:** There exists an identification function $I: (\mathcal{A}^*) \to \{1, ..., N\}$, where $\mathcal{A}^*$ is the space of all possible sequences, that can identify the individual $i$ from their generated sequence with a high probability $\beta$ close to 1.
+1. **Identifiability:** There exists an identification function $I$ that can identify the individual $i$ from their generated sequence with a high probability $\beta$ close to 1.
 
    $\mathbb{P}(I(\{X_i^t\}_{t=0}^{t=D_i}) = i) \ge \beta$
 
