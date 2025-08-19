@@ -44,23 +44,23 @@ What if patients not only received their current medical scans, but also future 
 Before we dive into the formal definitions, we need to define a few terms:
 
 - $X$: synthetic artifacts, as high-dimensional clinical representations (e.g., medical images, medical images + lab reports) of an individual $i \in \{1, ..., N\}$.
-- $G$: a generative system that produces a temporal sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$, where $X_i^t$ is the artifact for individual $i$ at time stamp $t$, $D_i$ is the death time point of the individual $i$.
+- $G$: a generative system that produces a temporal sequence of artifacts $\{X_i^t\}_{t=0}^{t=E_i}$, where $X_i^t$ is the artifact for individual $i$ at time stamp $t$, $E_i$ is the end point (death time point) of the individual $i$.
 - $Y$: real artifacts of an individual $i \in \{1, ..., N\}$ be $\{Y_i^t\}_{t=S}^{t=E}$, where the real clinical representations are available during the time period between the starting point $t=S$ and the end point $t=E$.
 - $M$: a diagnostic agent (e.g., human doctors, clinical LLM) that can map the clinical representations ($X$ and $Y$) to diagnosis. The accuracy of the diagnosis is measured by a metric $\mathcal{L}$.
 - $I$: an identification function to recognise the identities of all sequences of the medical artifacts.
-- $f_Y$: a mapping function that can transform the generated artifact $X$ into another interpretable data format $Y$.
+- $f_d$: a mapping function that can transform the generated artifact $X$ into another interpretable data format $d$.
 - $\mathcal{I}$: a virtual intervention.
 
 ---
 
 ## Definition 1: Disease World Model
 
-A generative system $G$ is a **Disease World Model** if its generated artifact sequences $\{X_i^t\}_{t=0}^{t=D_i}$ satisfy the following properties for all individuals $i$.
+A generative system $G$ is a **Disease World Model** if its generated artifact sequences $\{X_i^t\}_{t=0}^{t=E_i}$ satisfy the following properties for all individuals $i$.
 
 1. **Clinical Comprehensiveness:** Each generated artifact $X_i^t$ should contain the complete _comprehensive_ clinical representation of the patient that it can be converted into any data format that is interpretable to human doctors.
 2. **Clinical Reliability:** Each generated artifact $X_i^t$ is _clinically reliable_ for all $t$.
 3. **Interventional Validity:** Each generated artifact sequence under a virtual intervention is realistic and reliable.
-4. **Individual Characterisability:** Each generated artifact sequence $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually_ _characterisable_.
+4. **Individual Characterisability:** Each generated artifact sequence $\{X_i^t\}_{t=0}^{t=E_i}$ is _individually_ _characterisable_.
 
 ---
 
@@ -69,7 +69,7 @@ A generative system $G$ is a **Disease World Model** if its generated artifact s
 An artifact $X_i^t$ is considered _clinically comprehensive_ if it satisfies two conditions:
 
 1. **Comprehensive Representation:** The artifact must encode the complete clinical state of the patient at a given time, rather than a single data modality.
-2. **Functional Convertibility:** There must exist a set of mapping functions $\{f_Y\}$ capable of converting the artifact $X_i^t$ into any clinically relevant target format $Y$ (e.g., medical image, text report, time-series data) that is interpretable by human doctors. Each function performs the transformation $Y_i^t = f_Y(X_i^t)$. This ensures that a lot of the existing clinical workflows in the physical world can still be applied on the generated artifacts. It also verifies that the generated artifacts can be directly examined for their correctness.
+2. **Functional Convertibility:** If the artifact is _clinically comprehensive_, it must contain the _Clinical_ _Platonic_ _Representation_ of the patient. Therefore, there must exist a set of mapping functions $\{f_d\}$ capable of converting the artifact $X_i^t$ into any clinically relevant target format $d$ (e.g., medical image, text report, lab reports) that is interpretable by human doctors. Each function performs the transformation $X^t_{i^d} = f_d(X_i^t)$. This ensures that a lot of the existing clinical workflows in the physical world can still be applied on the generated artifacts. It also ensures that the generated artifacts can be directly evaluated for their correctness.
 
 ---
 
@@ -102,17 +102,17 @@ Let $\mathcal{I}$ be a virtual interaction (e.g., administering a drug, performi
 
 ## Definition 1.4: Individual Characterisability
 
-A sequence of artifacts $\{X_i^t\}_{t=0}^{t=D_i}$ is _individually_ _characterisable_ to ensure that the sequence contains a unique signature of the individual's disease progressionif, it satisfies the following conditions:
+A sequence of artifacts $\{X_i^t\}_{t=0}^{t=E_i}$ is _individually_ _characterisable_ to ensure that the sequence contains a unique signature of the individual's disease progressionif, it satisfies the following conditions:
 
 1. **Identifiability:** There exists an identification function $I$ that can identify the individual $i$ from their generated sequence with a high probability $\beta$ close to 1.
 
-   $\mathbb{P}(I(\{X_i^t\}_{t=0}^{t=D_i}) = i) \ge \beta$
+   $\mathbb{P}(I(\{X_i^t\}_{t=0}^{t=E_i}) = i) \ge \beta$
 
    An example of such an ientification function $I$ is an unsupervised contrastive clustering algorithm at a very granular level.
 
-2. **Endpoint Fidelity:** The generated trajectory for an individual must terminate at a clinically plausible endpoint. When the ground-truth time of death, $D_i^*$, is available for comparison, the sequence's simulated time of death, $D_i$, must align with it within a predefined, clinically acceptable margin $\delta_D$.
+2. **Endpoint Fidelity:** The generated trajectory for an individual must terminate at a clinically plausible endpoint. When the ground-truth time of death, $E_i^*$, is available for comparison, the sequence's simulated time of death, $E_i$, must align with it within a predefined, clinically acceptable margin $\delta_E$.
 
-   $D_i - D_i^* \le \delta_D$
+   $E_i - E_i^* \le \delta_E$
 
    This ensures the model accurately captures the overall duration and prognostic outcome of the individual's specific disease progression pattern.
 
