@@ -68,7 +68,7 @@ A generative system $G$ is a **Disease World Model** if its generated artifact s
 
 An artifact $X_i^t$ is considered _clinically comprehensive_ if it satisfies two conditions:
 
-1. **Comprehensive Representation:** The artifact must encode the complete clinical state of the patient at a given time, rather than a single data modality.
+1. **Comprehensive Representation:** The artifact must encode the complete clinical state of the patient at a given time, rather than a single data modality. Such a comprehensive clinical representation can be seen as the _Clinical_ _Platonic_ _Representation_ of the patient. 
 2. **Functional Convertibility:** If the artifact is _clinically comprehensive_, it must contain the _Clinical_ _Platonic_ _Representation_ of the patient. Therefore, there must exist a set of mapping functions $\{f_d\}$ capable of converting the artifact $X_i^t$ into any clinically relevant target format $d$ (e.g., medical image, text report, lab reports) that is interpretable by human doctors. Each function performs the transformation $X^t_{i^d} = f_d(X_i^t)$. This ensures that a lot of the existing clinical workflows in the physical world can still be applied on the generated artifacts. It also ensures that the generated artifacts can be directly evaluated for their correctness.
 
 ---
