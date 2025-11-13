@@ -34,8 +34,8 @@ Every day it has become more evident that current LLMs will one day be as good a
 ## How do we know if we have built a world model for personalised medicine? Looking for correct especailly unexpected emerging properties from the generated artifacts.
 A world model should have caputured an unravel level of details of the physical worlds that the generated artifacts must contain emerging physical properties that are also correct in physical world and critically significant for clinical purposes. Therefore, towards developing a world model of a disease, the "testing metrics" should be the artifacts themselves. We need to monitor and look for the emering properties of the generated medical artifacts. Once the generated medical artifacts satisfy conditions to understand and cure a disease, the system that generates those medical artifacts is a disease world model. 
 
-## What format of artifacts should we look for in a disease world model
-Medical imaging has always been playing an important role in advancing medicine through the time. 
+## What medical artifacts should we generate?
+In history, the emergence of visual intelligence directly led to the Cambrian Explosion in 541 millions years ago. In advancing medicine, medical imaging has also been playing a pivotal role in diagnosis, drug developments and surgery guidance. We should learn from evolution and keep imaging as a centre in the development of world models for diseases. 
 
 **Contents of this blog**: From the perspective focusing on the emerging properties of the generated medical artifacts, this blog will first lay out the definitions of a Disease World Model, which provides a few future research directions and opportunities. Some early use cases with promising results on lung fibrosis will later be discussed.
 
