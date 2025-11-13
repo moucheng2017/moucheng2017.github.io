@@ -37,7 +37,8 @@ A world model should have caputured an unravel level of details of the physical 
 ## What medical artifacts should we generate?
 In history, the emergence of visual intelligence directly led to the Cambrian Explosion in 541 millions years ago. In advancing medicine, medical imaging has also been playing a pivotal role in diagnosis, drug developments and surgery guidance. We should learn from evolution and keep imaging as a centre in the development of world models for diseases. 
 
-**Contents of this blog**: From the perspective focusing on the emerging properties of the generated medical artifacts, this blog will first lay out the definitions of a Disease World Model, which provides a few future research directions and opportunities. Some early use cases with promising results on lung fibrosis will later be discussed.
+## Contents of this blog:
+From the perspective focusing on the emerging properties of the generated medical artifacts, this blog will first lay out the definitions of a Disease World Model, which provides a few future research directions and opportunities. Some early use cases with promising results on lung fibrosis will later be discussed.
 
 **Invites for collaborators** This is a work in progress, so please feel free to contact me if you find a typo, a mistake, or would like to discuss or collaborate. [xumoucheng28@gmail.com](mailto:xumoucheng28@gmail.com).
 
