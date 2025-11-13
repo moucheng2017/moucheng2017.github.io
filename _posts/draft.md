@@ -22,23 +22,22 @@ typograms: true
 mathjax: true
 ---
 
-## Why are world models exciting in general
-Evolution is a verified method that can create intelligence. To follow the evolution path to create a digital intelligent being, we need three essences: scalable learning algorithms, computing hardware, a dynamic environment that constantly generates new training data. And eveything else is just bitter lessons. However, the last essence is the most challenging yet the most ignored research topic of the community. Luckily, recent progresses in world models and AI agents have started to attract more and more interests to this difficult problem. 
+## Why are world models exciting in general?
+Evolution is a verified method that can create intelligence. To follow the evolution path to create a digital intelligent being, we need three essences: scalable learning algorithms, computing hardware, a dynamic and interactive environment that constantly generates new training data. And eveything else is just bitter lessons. However, the last essence is the most challenging yet the most ignored research topic of the community. Luckily, recent progresses in world models and AI agents have started to attract more and more interests to this difficult problem. 
 
 ## How can world models benefit medicine?
-World models might not only be the data engine to power the future general AI systems, but also the engine to solve specific issues
+World models might not only be the data engine to power the future general AI systems, but also a great tool to realise personalised medicine. For example, the disease world models should be able to: 1) perform virtual screening to save patients from a preventative perspective; 2) generate virtual personal disease progression trajectories for optimal treatment planning; 3) simulate virtual interventions for helping develop new drugs and planning surgical procedures. 
 
-## The current LLM lacks evidence as world models for personalised medicine: 
-Every day it has become more evident that current LLMs will one day be as good as human doctors at making diagnoses. However, personalised medicine is far beyond just making a diagnosis. Unfortunately, I do not think that the current LLM systems or their future versions are designed for accurate personalised medicine. This is because they can only access sparse and partial clinical representations, rather than looking holistically at the whole picture at both the individual and population levels. 
+## Are the current LLM already world models for personalised medicine?
+Every day it has become more evident that current LLMs will one day be as good as human doctors at making diagnoses, if enough clinical representations are embedded and given to the LLMs. However, personalised medicine is far beyond making a diagnosis. Unfortunately, I do not think that the current LLM systems or their future versions are designed for accurate personalised medicine. This is because they can only access sparse and partial clinical representations, rather than looking holistically at the whole picture at both the individual and population levels. For example, there is no real evidence that LLM can do reasoning for disease progression modelling.
 
-## Are world models already here for personalised medicine? (Are the current LLM the correct route)
+## How do we know if we have built a world model for personalised medicine? Looking for correct especailly unexpected emerging properties from the generated artifacts.
+Taking the analogy from the definition of open-endness concept by looking at the generated artifacts. I think once the generated medical artifacts from a generative system satisfy a few certain conditions, we can probably start to claim we have built such a world models for diseases. Another reason made me to decide to define the disease world model from the perpsective of the generated artifacts is, a successful world model should have caputured unravel level of details of the physical worlds that the generated artifacts must have emerging physical properties that are amazingly detailed and critically significant for clinical purposes. 
 
-## How do we know once we have built a world model for personalised medicine?
+## What format of artifacts should we look for in a disease world model
+Medical imaging bear with a lot of clincal information that is 
 
-**World Models for personalised medicine**: World models 
-Recent progress in World Models has shed some light on how to realise personalised medicine for humanity using AI. World Models, such as the Google Genie series, can create physical worlds with interactive virtual environments. By analogy, we could create a Disease World Model that is fully aware of patients' clinical representations, with an interactive environment for virtual interactions. Such a model would be able to perform virtual screening to save patients from a preventative perspective. The Disease World Model should also be able to provide virtual personal disease progression modelling for optimal treatment planning, and it could even be helpful for personalised drug development with virtual interventions.
-
-**Contents of this blog**: This blog will first lay out the definitions of a Disease World Model, which provides a few future research directions and opportunities. Some early use cases with promising results on lung fibrosis will later be discussed.
+**Contents of this blog**: From the perspective focusing on the emerging properties of the generated medical artifacts, this blog will first lay out the definitions of a Disease World Model, which provides a few future research directions and opportunities. Some early use cases with promising results on lung fibrosis will later be discussed.
 
 **Invites for collaborators** This is a work in progress, so please feel free to contact me if you find a typo, a mistake, or would like to discuss or collaborate. [xumoucheng28@gmail.com](mailto:xumoucheng28@gmail.com).
 
