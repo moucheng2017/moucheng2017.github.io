@@ -28,8 +28,13 @@ mathjax: true
 ## The current LLM lacks evidence as world models for personalised medicine: 
 Every day it has become more evident that current LLMs will one day be as good as human doctors at making diagnoses. However, personalised medicine is far beyond just making a diagnosis. Unfortunately, I do not think that the current LLM systems or their future versions are designed for accurate personalised medicine. This is because they can only access sparse and partial clinical representations, rather than looking holistically at the whole picture at both the individual and population levels. 
 
-**World Models for personalised medicine**: World models 
+## Are world models already here for personalised medicine? (Are the current LLM the correct route)
 
+## How do we know once we have built a world model for personalised medicine?
+
+
+
+**World Models for personalised medicine**: World models 
 Recent progress in World Models has shed some light on how to realise personalised medicine for humanity using AI. World Models, such as the Google Genie series, can create physical worlds with interactive virtual environments. By analogy, we could create a Disease World Model that is fully aware of patients' clinical representations, with an interactive environment for virtual interactions. Such a model would be able to perform virtual screening to save patients from a preventative perspective. The Disease World Model should also be able to provide virtual personal disease progression modelling for optimal treatment planning, and it could even be helpful for personalised drug development with virtual interventions.
 
 **Contents of this blog**: This blog will first lay out the definitions of a Disease World Model, which provides a few future research directions and opportunities. Some early use cases with promising results on lung fibrosis will later be discussed.
