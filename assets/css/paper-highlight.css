@@ -1,13 +1,13 @@
 .highlight-badge {
   margin: 0.5rem 0;
   padding: 0.5rem;
-  background-color: #ffebee;
-  border-left: 4px solid #c62828;
+  background-color: #fff;
+  border: 2px solid #c62828;
   border-radius: 4px;
 }
 
 .highlight-badge-text {
   color: #c62828;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.95rem;
 }
