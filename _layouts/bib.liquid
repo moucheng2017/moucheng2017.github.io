@@ -41,6 +41,14 @@
           %}
         {% endif %}
       {% endif %}
+      <!-- Highlight badge -->
+      {% if entry.highlight %}
+        <div class="highlight-badge">
+          <span class="highlight-badge-text">
+            {{ entry.highlight }}
+          </span>
+        </div>
+      {% endif %}
     </div>
   {% endif %}
 
@@ -181,15 +189,6 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
-
-    <!-- Highlight badge -->
-    {% if entry.highlight %}
-      <div class="highlight-badge">
-        <span class="highlight-badge-text">
-          {{ entry.highlight }}
-        </span>
-      </div>
-    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
