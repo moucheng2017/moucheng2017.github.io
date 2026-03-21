@@ -6,7 +6,7 @@ subtitle: Senior AI Engineer in Surgical Robot Vision at Medtronic
 
 profile:
   align: right
-  image: capy.jpeg
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>230 City Road,</p>
