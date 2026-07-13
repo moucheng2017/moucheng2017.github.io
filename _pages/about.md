@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior AI Engineer in Surgical Robot Vision at Medtronic
+subtitle: 
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
